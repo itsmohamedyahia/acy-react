@@ -9,11 +9,13 @@ import Analytics from "./assets/Pages/Analytics";
 import Store from "./assets/Pages/Store";
 import AddFriend from "./assets/Pages/AddFriend";
 import Settings from "./assets/Pages/Settings";
+import Error from "./assets/Pages/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <Error />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
