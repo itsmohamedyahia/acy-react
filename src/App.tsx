@@ -11,7 +11,7 @@ import AddFriend from "./assets/Pages/AddFriend";
 import Settings from "./assets/Pages/Settings";
 import Error from "./assets/Pages/Error";
 import PracticeNeuroMain from "./assets/Pages/Courses/Nuerology/Practice/PracticeNeuroMain";
-import PracticeNeuro1 from "./assets/Pages/Courses/Nuerology/Practice/PracticeNeuro1";
+import PracticeNeuroSession from "./assets/Pages/Courses/Nuerology/Practice/PracticeNeuroSession";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,12 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/courses/neurology/practice",
         element: <PracticeNeuroMain />,
-        children: [
-          {
-            path: "/courses/neurology/practice/lesson1",
-            element: <PracticeNeuro1 />,
-          },
-        ],
+      },
+      {
+        path: "/courses/neurology/practice/:lessonId",
+        element: <PracticeNeuroSession />,
       },
     ],
   },
