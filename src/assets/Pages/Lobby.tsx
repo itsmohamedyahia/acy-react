@@ -4,7 +4,9 @@ function Lobby() {
   return (
     <h1>
       Lobby
-      <Link to="/courses/neurology/practice">GO to courses</Link>
+      <Link to="/courses/neurology/practice">
+        Go to Neurology Practice Course
+      </Link>
     </h1>
   );
 }

@@ -22,21 +22,23 @@ const router = createBrowserRouter([
       </Root>
     ),
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/about", element: <About /> },
-      { path: "/lobby", element: <Lobby /> },
-      { path: "/leaderboard", element: <Leaderboard /> },
-      { path: "/analytics", element: <Analytics /> },
-      { path: "/store", element: <Store /> },
-      { path: "/add-friend", element: <AddFriend /> },
-      { path: "/settings", element: <Settings /> },
+      { path: "", element: <Home /> },
+      { path: "about", element: <About /> },
+      { path: "lobby", element: <Lobby /> },
+      { path: "leaderboard", element: <Leaderboard /> },
+      { path: "analytics", element: <Analytics /> },
+      { path: "store", element: <Store /> },
+      { path: "add-friend", element: <AddFriend /> },
+      { path: "settings", element: <Settings /> },
       {
-        path: "/courses/neurology/practice",
+        path: "courses/neurology/practice",
         element: <PracticeNeuroMain />,
-      },
-      {
-        path: "/courses/neurology/practice/:lessonId",
-        element: <PracticeNeuroSession />,
+        children: [
+          {
+            path: ":lessonId",
+            element: <PracticeNeuroSession />,
+          },
+        ],
       },
     ],
   },
