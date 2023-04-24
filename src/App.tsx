@@ -33,12 +33,10 @@ const router = createBrowserRouter([
       {
         path: "courses/neurology/practice",
         element: <PracticeNeuroMain />,
-        children: [
-          {
-            path: ":lessonId",
-            element: <PracticeNeuroSession />,
-          },
-        ],
+      },
+      {
+        path: "courses/neurology/practice/:lessonId",
+        element: <PracticeNeuroSession />,
       },
     ],
   },
