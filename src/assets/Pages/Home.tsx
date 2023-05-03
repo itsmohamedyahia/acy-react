@@ -1,22 +1,24 @@
 function Home() {
   return (
     <header>
-      <p class="mb-2 text-sm font-semibold text-blue-600">Home Sweet Home</p>
-      <h1 class="block text-2xl font-bold text-gray-800 sm:text-3xl dark:text-white">
+      <p className="mb-2 text-sm font-semibold text-blue-600">
+        Home Sweet Home
+      </p>
+      <h1 className="block text-2xl font-bold text-gray-800 sm:text-3xl dark:text-white">
         LETS GO
       </h1>
-      <p class="mt-2 text-lg text-gray-800 dark:text-gray-400">
+      <p className="mt-2 text-lg text-gray-800 dark:text-gray-400">
         This is a simple application layout with sidebar and header examples
         using Tailwind CSS.
       </p>
-      <div class="mt-5 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
+      <div className="mt-5 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
         <a
-          class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
+          className="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
           href="https://github.com/htmlstreamofficial/preline/tree/main/examples/html"
           target="_blank"
         >
           <svg
-            class="w-4 h-4"
+            className="w-4 h-4"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -28,11 +30,11 @@ function Home() {
           Get the source code
         </a>
         <a
-          class="w-full sm:w-auto inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-blue-500 hover:text-blue-700 focus:outline-none focus:ring-2 ring-offset-gray-50 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm py-3 px-4 dark:ring-offset-slate-900"
+          className="w-full sm:w-auto inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-blue-500 hover:text-blue-700 focus:outline-none focus:ring-2 ring-offset-gray-50 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm py-3 px-4 dark:ring-offset-slate-900"
           href="../examples.html"
         >
           <svg
-            class="w-2.5 h-2.5"
+            className="w-2.5 h-2.5"
             width="16"
             height="16"
             viewBox="0 0 16 16"
