@@ -1,5 +1,5 @@
 import "./Navbar.css";
-// template => https://preline.co/examples/layouts-application.html
+// template at end of the page =>  https://preline.co/examples/layouts-application.html
 
 export default function Navbar() {
   return (
