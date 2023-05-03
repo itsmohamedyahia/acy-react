@@ -1,5 +1,16 @@
 .root-layout {
-  display: flex;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  /* align-items: stretch; */
   height: 100vh;
+}
+
+.sidebar {
+  grid-column: 1 / span 1;
+  grid-row: 1 / -1;
+}
+
+.main {
+  grid-column: 2 / span 1;
 }
