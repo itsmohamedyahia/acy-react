@@ -1,27 +1,26 @@
 .root-layout {
   display: grid;
-  grid-template-columns: 1fr 7fr;
-  grid-template-rows: 1fr 13fr 1fr;
-  /* align-items: stretch; */
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 7% 87% 6%;
+  grid-template-areas:
+    "sidebar navbar"
+    "sidebar main"
+    "sidebar footer";
   height: 100vh;
 }
 
 .sidebar {
-  grid-column: 1 / span 1;
-  grid-row: 1 / -1;
+  grid-area: sidebar;
 }
 
 .main {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
+  grid-area: main;
 }
 
 .footer {
-  grid-column: 2 / -1;
-  grid-row: 3 / -1;
+  grid-area: footer;
 }
 
 .navbar {
-  grid-column: 2/-1;
-  grid-row: 1 / span 1;
+  grid-area: navbar;
 }
