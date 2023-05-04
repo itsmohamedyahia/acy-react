@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "./Components/Includes/Sidebar";
+import Sidebar from "./Components/Includes/Sidebar/Sidebar";
 import "./Root.css";
-import Navbar from "./Components/Includes/Navbar";
+import Navbar from "./Components/Includes/Navbar/Navbar";
 
 function Root(props: any) {
   return (
-    <div className="root-layout w-full pt-10 px-4 sm:px-6 md:px-8 lg:pl-72">
+    <div className="root-layout">
+      {/*w-full pt-10 px-4 sm:px-6 md:px-8 lg:pl-72*/}
       <Sidebar />
       <Navbar />
       <Outlet />

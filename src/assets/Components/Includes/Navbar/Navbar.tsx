@@ -1,11 +1,14 @@
 import "./Navbar.css";
 // template at end of the page =>  https://preline.co/examples/layouts-application.html
-import Nav__Notifications from "./Nav__Notifications";
-import Nav__Profile from "./Nav__Profile";
+import Nav__Notifications from "./Components/Nav__Notifications";
+import Nav__Profile from "./Components/Nav__Profile";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white border-b text-sm py-2.5 dark:bg-gray-800 dark:border-gray-700">
+    <header
+      className="navbar py-2.5 border-b"
+      // className="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white  text-sm  dark:bg-gray-800 dark:border-gray-700"
+    >
       <nav
         className="flex basis-full items-center w-full mx-auto px-4 sm:px-6 md:px-8"
         aria-label="Global"
