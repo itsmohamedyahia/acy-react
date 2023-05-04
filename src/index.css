@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --vh: calc(var(--vh, 1vh) * 100);
 }
 
@@ -10,8 +10,7 @@
 .full-height {
   height: var(--vh);
 }
-
-* {
+*/ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,6 +21,7 @@ html {
   font-size: large;
 }
 
+html,
 body {
   height: 100vh;
 }

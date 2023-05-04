@@ -4,7 +4,7 @@ export default function Side__Link(props) {
   return (
     <li className="">
       <a
-        className=" rounded flex items-center w-full h-12 px-3 mt-2 hover:bg-gray-400 text-slate-700"
+        className=" rounded flex items-center p-3 mt-2 hover:bg-gray-400 text-slate-700"
         href="#"
       >
         {props.ico}

@@ -38,7 +38,7 @@ function Sidebar() {
   return (
     <div
       id="application-sidebar"
-      className="sidebar border-r border-gray-200 py-7 px-4  "
+      className="sidebar border-r border-gray-200 py-7 px-4 flex flex-col h-full"
     >
       <div className="px-6">
         <a
@@ -50,15 +50,14 @@ function Sidebar() {
         </a>
       </div>
 
-      <nav className="flex flex-col items-center mt-3  ">
-        <ul className="space-y-2 w-full border-t border-b border-gray-300 py-5">
+      <nav className=" items-center mt-3 flex flex-col grow h-full">
+        <ul className="space-y-2 w-full border-t border-gray-300 py-5">
           <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
           <Side__Link label="Lobby" ico={<Side_HomeIcon />} />
           <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
           <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
         </ul>
-        <ul className=" space-y-2 w-full  border-b mt-auto	border-gray-300 py-5">
-          <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
+        <ul className=" space-y-2 w-full mt-auto border-b border-t	border-gray-300 py-5 ">
           <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
           <Side__Link label="Dashboard" ico={<Side_HomeIcon />} />
         </ul>
