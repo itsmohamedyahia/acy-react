@@ -1,15 +1,15 @@
 import "./Side__Link.css";
-
+import { Link } from "react-router-dom";
 export default function Side__Link(props) {
   return (
     <li className="">
-      <a
+      <Link
+        to={props.route}
         className=" rounded flex items-center p-3 mt-2 hover:bg-gray-400 text-slate-700"
-        href="#"
       >
         {props.ico}
         <span className="ml-2 text-sm font-medium"> {props.label}</span>
-      </a>
+      </Link>
     </li>
   );
 }

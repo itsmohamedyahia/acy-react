@@ -1,4 +1,6 @@
+import image from "../../../public/Images/under_construction.png";
+
 function Analytics() {
-  return <h1>Analytics</h1>;
+  return <img src={image} style={{ width: "100%" }} />;
 }
 export default Analytics;
