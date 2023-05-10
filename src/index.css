@@ -18,11 +18,12 @@ html {
 
 html,
 body {
-  height: 100vh;
+  height: 100%;
 }
 
 #root {
   height: 100%;
+  width: 100%;
 }
 
 /* <input autofocus="" type="text" name="luck" id="luck" style="

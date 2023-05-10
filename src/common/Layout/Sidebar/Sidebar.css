@@ -15,3 +15,20 @@
 .custom-mt {
   margin-top: 0.85rem;
 }
+
+@media (max-width: 1150px) {
+  .sidebar--shrinken #sidebar__label {
+    display: none;
+  }
+
+  #root-layout {
+    display: grid;
+    grid-template-columns: 7% auto !important;
+  }
+}
+
+@media (max-width: 950px) {
+  #sidebar {
+    display: none;
+  }
+}

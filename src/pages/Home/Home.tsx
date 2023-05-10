@@ -7,7 +7,7 @@ import Home__Analytics from "./Home__Analytics";
 
 export default function HomePage() {
   return (
-    <div className="home">
+    <div className=" home">
       <Home__Hello />
       <Home__Start />
       <Home__Leaderboard />

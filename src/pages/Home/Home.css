@@ -12,6 +12,11 @@
   max-width: inherit;
 }
 
+@media (max-width: 1410px) {
+  .home {
+    padding: 3rem 3rem;
+  }
+}
 .home__hello {
   grid-area: welcome;
 }

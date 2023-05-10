@@ -1,6 +1,9 @@
 export default function Footer() {
   return (
-    <footer id="footer" className="bg-white border-t shadow dark:bg-gray-800">
+    <footer
+      id="footer"
+      className="w-full mt-auto bg-white border-t dark:bg-gray-800"
+    >
       <div className="w-full max-w-screen-xl p-4 mx-auto md:flex md:items-center md:justify-between">
         <span
           id="footer__text-container"

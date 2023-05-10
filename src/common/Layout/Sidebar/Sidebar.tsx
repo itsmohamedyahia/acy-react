@@ -11,7 +11,7 @@ export default function Sidebar() {
   return (
     <div
       id="sidebar"
-      className="flex flex-col items-center h-full overflow-hidden text-indigo-300 bg-main sidebar"
+      className="flex flex-col items-center overflow-x-hidden text-indigo-300 bg-main sidebar sidebar--shrinken"
       aria-label="Sidebar"
     >
       <Sidebar__Head />
