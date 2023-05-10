@@ -1,0 +1,37 @@
+.home {
+  padding: 3rem 10rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 15% 22% 60%;
+  grid-template-areas:
+    "welcome start start"
+    "streak streak leaderboard"
+    "analytics analytics leaderboard";
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+  max-width: inherit;
+}
+
+.home__hello {
+  grid-area: welcome;
+}
+
+.home__start {
+  grid-area: start;
+}
+
+.home__streak {
+  grid-area: streak;
+}
+
+.home__leaderboard {
+  grid-area: leaderboard;
+}
+
+.home__analytics {
+  grid-area: analytics;
+}
+
+.custom-shadow {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}

@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --vh: calc(var(--vh, 1vh) * 100);
-}
-
-/* Use `var(--vh)` instead of `100vh` */
-.full-height {
-  height: var(--vh);
-}
-*/ * {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,6 +13,7 @@
 html {
   /* font-size: 62.5%; */
   font-size: large;
+  font-family: "Segoe UI";
 }
 
 html,
@@ -29,3 +24,13 @@ body {
 #root {
   height: 100%;
 }
+
+/* <input autofocus="" type="text" name="luck" id="luck" style="
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    margin-top: 1rem;
+    width: 14.5rem;
+    height: 38.4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    padding: 0 1rem;
+"> */
