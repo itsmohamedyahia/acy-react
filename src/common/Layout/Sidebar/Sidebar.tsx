@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./Sidebar.queries.css";
 import Sidebar__Foot from "./Components/Sidebar__Foot";
 import Sidebar__Nav from "./Components/Sidebar__Nav/Sidebar__Nav";
 import Sidebar__Head from "./Components/Sidebar__Head";
@@ -11,12 +11,12 @@ export default function Sidebar() {
   return (
     <div
       id="sidebar"
-      className="flex flex-col items-center overflow-x-hidden text-indigo-300 bg-main sidebar sidebar--shrinken"
+      className="flex flex-col items-center overflow-x-hidden text-indigo-300 bg-blue-800 sidebar z-10 sidebar--shrinken"
       aria-label="Sidebar"
     >
       <Sidebar__Head />
       <Sidebar__Nav />
-      <Sidebar__Foot />
+      {/* <Sidebar__Foot /> */}
     </div>
   );
 }

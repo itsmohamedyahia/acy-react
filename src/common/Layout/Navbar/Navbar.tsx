@@ -4,7 +4,10 @@ import Nav__Profile from "./Components/Nav__Profile";
 
 export default function Navbar() {
   return (
-    <header id="navbar" className="navbar py-2.5 border-b">
+    <header
+      id="navbar"
+      className="navbar py-2.5 border-b absolute top-0 left-0 right-0"
+    >
       <nav
         id="navbar__nav"
         className="flex items-center w-full px-4 mx-auto basis-full sm:px-6 md:px-8"

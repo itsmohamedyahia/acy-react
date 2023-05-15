@@ -13,6 +13,42 @@ export default function HomePage() {
       <Home__Leaderboard />
       <Home__Streak />
       <Home__Analytics />
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
+        temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
+        blanditiis facere consectetur neque a, nobis laborum esse eum libero
+        inventore quod?
+      </div>
     </div>
   );
 }
