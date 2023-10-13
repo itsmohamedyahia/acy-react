@@ -1,23 +1,16 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
-import "./Root.css";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
+import s from "./Root.module.css";
 
-export default function Root(props) {
+import Navbar from "../Navbar/Navbar";
+
+import Main from "../Main/Main";
+export default function Root() {
   return (
-    <div id="root-layout" className="relative w-full h-full overflow-hidden">
+    <div id={s["root-layout"]}>
       <Sidebar />
       <Navbar />
-      <div className="min-h-[93vh] grid mt-[3rem]">
-        {props.children}
-        <Outlet />
-        <Footer />
-      </div>
-      {/* <main className="main">
-        <Navbar />
-        
-      </main> */}
+      <Main outlet={<Outlet />}></Main>
     </div>
   );
 }

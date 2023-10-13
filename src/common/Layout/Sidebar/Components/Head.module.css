@@ -1,0 +1,14 @@
+.sidebar__head {
+  padding: 0 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  width: 3.6rem;
+}
+
+.logo-text {
+  font-size: 1.575rem;
+  margin-left: 0.9rem;
+  font-weight: 700;
+}

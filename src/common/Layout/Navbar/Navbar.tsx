@@ -1,12 +1,13 @@
 // template at end of the page =>  https://preline.co/examples/layouts-application.html
 import Nav__Notifications from "./Components/Nav__Notifications";
 import Nav__Profile from "./Components/Nav__Profile";
+import s from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
     <header
       id="navbar"
-      className="navbar py-2.5 border-b absolute top-0 left-0 right-0"
+      className={`navbar py-2.5 border-b absolute top-0 left-0 right-0 z-10 bg-white ${s.navbar}`}
     >
       <nav
         id="navbar__nav"

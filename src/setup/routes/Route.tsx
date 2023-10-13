@@ -11,8 +11,8 @@ import Login from "../../pages/Login/Login";
 import SignUp from "../../pages/Login/SignUp";
 // import ProfileSetup from "./assets/Pages/Login/ProfileSetup";
 // core
-import MasteryMatrixPage from "../../features/CoreFeatures/MasteryMatrix/MasteryMatrix";
-import BlitzBlazePage from "../../features/CoreFeatures/BlitzBlaze/BlitzBlaze";
+// import MasteryMatrixPage from "../../features/CoreFeatures/MasteryMatrix/MasteryMatrix";
+// import BlitzBlazePage from "../../features/CoreFeatures/BlitzBlaze/BlitzBlaze";
 import SynapseSagePage from "../../features/CoreFeatures/SynapSage/SynapseSage";
 // utility
 import LeaderboardPage from "../../features/UtilityFeatures/Leaderboard/Leaderboard";
@@ -21,7 +21,7 @@ import AddFriend from "../../features/UtilityFeatures/Friends/AddFriend";
 import Profile from "../../pages/Settings__Profile/Profile";
 //other
 import Root from "../../common/Layout/Root/Root";
-import Error from "../../pages/Error/Error";
+// import Error from "../../pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
     element: <Root />,
     errorElement: (
       <Root>
-        <Error></Error>
+        {/* <Error></Error> */} 
       </Root>
     ),
     children: [
@@ -39,6 +39,7 @@ export const router = createBrowserRouter([
       { path: "settings/profile", element: <Profile /> },
       { path: "settings/security", element: <Security /> },
       // core
+      {path: "study", element: <SynapseSagePage/>},
       { path: "analytics", element: <AnalyticsPage /> },
       { path: "store", element: <Store /> },
       { path: "add-friend", element: <AddFriend /> },

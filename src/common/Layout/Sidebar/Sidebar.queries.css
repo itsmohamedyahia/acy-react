@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 1150px) {
-  .sidebar--shrinken #sidebar__label {
+  .sidebar #sidebar__label {
     display: none;
   }
 
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 900px) {
-  #sidebar {
+  .sidebar {
     display: none;
   }
 }
