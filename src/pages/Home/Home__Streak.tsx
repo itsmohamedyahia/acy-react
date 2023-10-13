@@ -14,8 +14,8 @@ export default function Home__Streak() {
               fill="none"
               stroke="currentColor"
               stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
@@ -30,8 +30,8 @@ export default function Home__Streak() {
             fill="none"
             stroke="currentColor"
             stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
@@ -44,8 +44,8 @@ export default function Home__Streak() {
             fill="none"
             stroke="currentColor"
             stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
@@ -58,8 +58,8 @@ export default function Home__Streak() {
             fill="none"
             stroke="currentColor"
             stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
@@ -72,8 +72,8 @@ export default function Home__Streak() {
             fill="none"
             stroke="currentColor"
             stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
