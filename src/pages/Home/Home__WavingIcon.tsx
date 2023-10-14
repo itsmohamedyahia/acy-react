@@ -7,14 +7,14 @@ export default function Home__WavingIcon(props) {
       style={{ transform: "translate(0, -0.2rem)" }}
       viewBox="0 0 128 128"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       aria-hidden="true"
       role="img"
-      class={classes}
+      className={classes}
       preserveAspectRatio="xMidYMid meet"
       fill="#000000"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
         strokeLinecap="round"
@@ -31,10 +31,10 @@ export default function Home__WavingIcon(props) {
           gradientUnits="userSpaceOnUse"
         >
           {" "}
-          <stop offset=".353" stop-color="#ffca28">
+          <stop offset=".353" stopColor="#ffca28">
             {" "}
           </stop>{" "}
-          <stop offset=".872" stop-color="#ffb300">
+          <stop offset=".872" stopColor="#ffb300">
             {" "}
           </stop>{" "}
         </radialGradient>{" "}

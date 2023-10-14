@@ -13,7 +13,7 @@ export default function Home__Streak() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
             >
@@ -29,7 +29,7 @@ export default function Home__Streak() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
@@ -43,7 +43,7 @@ export default function Home__Streak() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
@@ -57,7 +57,7 @@ export default function Home__Streak() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
@@ -71,7 +71,7 @@ export default function Home__Streak() {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
@@ -111,9 +111,9 @@ export default function Home__Streak() {
 //                 <g
 //                   id="Page-1"
 //                   stroke="none"
-//                   stroke-width="1"
+//                   strokeWidth="1"
 //                   fill="none"
-//                   fill-rule="evenodd"
+//                   fillRule="evenodd"
 //                 >
 //                   <g
 //                     id="Progress-Bars"
