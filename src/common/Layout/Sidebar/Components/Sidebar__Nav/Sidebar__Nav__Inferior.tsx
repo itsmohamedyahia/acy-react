@@ -5,7 +5,7 @@ import Side__SettingsIcon from "../Icons/Side__SettingsIcon";
 
 export default function Sidebar__Nav__Inferior() {
   return (
-    <div className="flex flex-col items-center w-full mt-auto mb-4 border-t border-blue-900">
+    <div className="flex flex-col items-center w-full mt-auto mb-6 border-t border-blue-900">
       <Sidebar__Link label="Store" ico={<Side__StoreIcon />} path="/store" />
       <Sidebar__Link
         label="Settings"

@@ -1,9 +1,6 @@
 .main {
-  min-height: 93vh;
   display: grid;
-  justify-items: center;
-  margin-top: 3rem;
-  padding-left: 25rem;
+  margin-top: 3.5rem;
 
   overflow: scroll;
   overflow-x: hidden; /*```*/

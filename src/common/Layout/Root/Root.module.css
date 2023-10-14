@@ -1,7 +1,13 @@
 #root-layout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 15fr 100fr;
   height: 100%;
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+
+.root-container {
+  position: relative;
+  width: 100%;
 }

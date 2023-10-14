@@ -2,7 +2,6 @@
   padding: 3rem 10rem;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 15% 22% 60%;
   grid-template-areas:
     "welcome start start"
     "streak streak leaderboard"

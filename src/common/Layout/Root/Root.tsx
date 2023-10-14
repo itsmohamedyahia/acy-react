@@ -9,8 +9,10 @@ export default function Root() {
   return (
     <div id={s["root-layout"]}>
       <Sidebar />
+      <div className={s["root-container"]}>
       <Navbar />
       <Main outlet={<Outlet />}></Main>
+      </div>
     </div>
   );
 }
