@@ -1,5 +1,4 @@
 import "./Sidebar.queries.css";
-import Sidebar__Foot from "./Components/Sidebar__Foot";
 import Sidebar__Nav from "./Components/Sidebar__Nav/Sidebar__Nav";
 import Sidebar__Head from "./Components/Sidebar__Head";
 import s from "./Sidebar.module.css";
@@ -13,7 +12,6 @@ export default function Sidebar() {
     <div id="sidebar" className={` ${s.sidebar}`} aria-label="Sidebar">
       <Sidebar__Head />
       <Sidebar__Nav />
-      {/* <Sidebar__Foot /> */}
     </div>
   );
 }
