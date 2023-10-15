@@ -6,7 +6,7 @@ export default function Sidebar__Nav__Superior() {
   return (
     <div
       id="sidebar__nav__superior"
-      className="flex flex-col items-center w-full mt-3 border-t border-blue-900"
+      className="flex flex-col items-center w-full pt-3 border-t border-blue-900"
     >
       <Sidebar__Link label="Dashboard" ico={<Side_HomeIcon />} path="/" />
       <Sidebar__Link
