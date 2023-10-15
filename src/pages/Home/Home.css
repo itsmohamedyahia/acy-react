@@ -1,5 +1,5 @@
 .home {
-  padding: 3rem 10rem;
+  padding: 2.4rem 10rem;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-areas:
@@ -13,7 +13,7 @@
 
 @media (max-width: 1410px) {
   .home {
-    padding: 3rem 3rem;
+    padding: 1.6rem 3rem;
   }
 }
 .home__hello {
