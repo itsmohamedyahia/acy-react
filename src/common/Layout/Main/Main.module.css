@@ -2,6 +2,7 @@
   display: grid;
   margin-top: 3.5rem;
 
-  overflow: scroll;
+  overflow:auto;
   overflow-x: hidden; /*```*/
+  height: 100vh;
 }
