@@ -1,4 +1,4 @@
-import Card from "../..//Components/UI/Card";
+// import Card from "../../Components/UI/Card";
 import TableBody from "./components/Table__Body";
 import TableFooter from "./components/Table__Footer";
 import TableHead from "./components/Table__Head";
