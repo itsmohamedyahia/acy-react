@@ -27,11 +27,12 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: (
-      <Root>
-        {/* <Error></Error> */} 
-      </Root>
-    ),
+    // errorElement: (
+    //   <Root>
+    //     <Error></Error> 
+    //   </Root>
+    // ),
+    errorElement: <>404</>,
     children: [
       // main
       { index: true, element: <HomePage /> }, // path: ''
