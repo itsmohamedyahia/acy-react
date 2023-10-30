@@ -46,7 +46,7 @@ export default function Home__Analytics() {
 // Chart setup
 ChartJS.defaults.font.family = "Inter";
 ChartJS.defaults.scale.grid.drawOnChartArea = false;
-ChartJS.defaults.scale.grid.drawBorder = false;
+// ChartJS.defaults.scale.grid.drawBorder = false; look if there is new property in town or delete
 ChartJS.defaults.elements.point.radius = 0;
 ChartJS.defaults.scale.ticks.color = "#abadc6";
 ChartJS.defaults.datasets.line.borderColor = "#2563eb";
