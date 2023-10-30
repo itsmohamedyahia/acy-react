@@ -8,7 +8,7 @@ export default function Profile__FormControl({ label, id }) {
       <label htmlFor={id} className="Profile__FormControl__label">
         {label}
       </label>
-      <Profile__FormControl__Input id={id} dbName={dbName} />
+      <Profile__FormControl__Input id={id} dbName={dbName} placeholder="something man" />
     </div>
   );
 }
