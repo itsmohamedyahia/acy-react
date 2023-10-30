@@ -14,7 +14,7 @@ export default function PurchaseItem(props) {
           <li className="flex space-x-3">
             <svg
               aria-hidden="true"
-              class="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+              className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ export default function PurchaseItem(props) {
                 clipRule="evenodd"
               ></path>
             </svg>
-            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+            <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
               356+ MCQs
             </span>
           </li>
