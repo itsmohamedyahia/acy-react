@@ -1,11 +1,11 @@
 import { useLocation } from "react-router-dom";
 
-import ListOfLessons from "../../ListOfLessons";
+// import ListOfLessons from "../../../../../features";
 
 function PracticeNeuroMain() {
   return (
     <>
-      <ListOfLessons />
+      {/* <ListOfLessons /> */}
       <h1>Choose a lesson to get started</h1>
     </>
   );
