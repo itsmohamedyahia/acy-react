@@ -4,7 +4,7 @@ import Card from "../../../common/UI/Card";
 function Home__Hello() {
   let firstName = "Mohamed";
   return (
-    <Card addClass="home__welcome flex items-center gap-2 custom-shadow">
+    <Card addClass="home__welcome flex items-center gap-2 custom-shadow justify-center">
       <a href="#" className="block">
         <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 uppercase dark:text-white">
           Hey, {firstName}
