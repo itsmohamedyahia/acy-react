@@ -10,5 +10,11 @@
 
   height: 100vh;
   padding: 0 0 1.35rem 0;
-  overflow: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1150px) {
+  .sidebar {
+    display: none;
+  }
 }
