@@ -11,11 +11,6 @@
   max-width: inherit;
 }
 
-@media (max-width: 1410px) {
-  .home {
-    padding: 1.6rem 3rem;
-  }
-}
 .home__hello {
   grid-area: welcome;
 }
@@ -34,6 +29,27 @@
 
 .home__analytics {
   grid-area: analytics;
+}
+
+@media (max-width: 1410px) {
+  .home {
+    padding: 1.6rem 3rem;
+  }
+
+}
+
+@media (max-width: 1150px) {
+    .home {
+      grid-template-columns: 1fr ;
+      grid-template-areas: "welcome"
+      "start"
+      "streak"
+      "leaderboard"
+      "analytics"
+    }
+
+
+    
 }
 
 .custom-shadow {
