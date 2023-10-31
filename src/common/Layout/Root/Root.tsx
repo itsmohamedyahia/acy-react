@@ -12,8 +12,9 @@ export default function Root() {
       <div className={s["root-container"]}>
         <Navbar />
         <Main outlet={<Outlet />}></Main>
-        <MobileNavbar/>
+        
       </div>
+      <MobileNavbar/>
     </div>
   );
 }
