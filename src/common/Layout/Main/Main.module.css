@@ -2,7 +2,6 @@
   display: grid;
   margin-top: 3.5rem;
 
-  overflow:auto;
-  overflow-x: hidden; /*```*/
+  overflow-x: hidden; 
   height: 93vh;
 }
