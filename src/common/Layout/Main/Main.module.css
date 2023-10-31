@@ -3,35 +3,3 @@
   overflow-x: hidden;
   overflow-y:auto;
 }
-
-
-/* @media (max-height:713px) {
-.main {
-  height: 84vh;
-}
-}
-
-@media (max-height:465px) {
-  .main {
-    height: 80vh;
-  }
-  }
-
-@media (max-height:367px) {
-    .main {
-      height: 75vh;
-    }
-    }
-
-@media (max-height:300px) {
-    .main {
-      height: 65vh;
-    }
-    }
-
-
-@media (max-height:200px) {
-  .main {
-    height: 20vh;
-  }
-  } */
