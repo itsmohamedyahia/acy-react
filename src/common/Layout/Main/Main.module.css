@@ -3,3 +3,10 @@
   overflow-x: hidden; 
   height: 93vh;
 }
+
+
+@media (max-width:1150px) {
+.main {
+  height: 83vh;
+}  
+}
