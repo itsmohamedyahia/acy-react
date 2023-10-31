@@ -1,3 +1,7 @@
+import ContentSidebar from "../../../common/Layout/ContentSidebar/ContentSidebar";
+
 export default function SynapseSagePage() {
-    return (<div>synapse</div>)
+    return (<div className="synapse_sage">
+    synapse
+    </div>)
 }
