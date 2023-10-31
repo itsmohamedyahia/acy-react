@@ -4,9 +4,10 @@ import Card from "../../../common/UI/Card";
 function Home__Hello() {
   let firstName = "Mohamed";
   return (
-    <Card addClass="home__welcome flex items-center gap-2 custom-shadow justify-center">
+    <Card addClass="home__welcome flex items-center gap-2 justify-center">
       <a href="#" className="block">
-        <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 uppercase dark:text-white">
+        {/* mb-2 align text with icon even after align items center */}
+        <h5 className="mb-2 text-2xl font-semibold uppercase dark:text-white">
           Hey, {firstName}
         </h5>
       </a>
