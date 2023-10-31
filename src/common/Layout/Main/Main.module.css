@@ -17,3 +17,15 @@
     height: 80vh;
   }
   }
+
+@media (max-height:367px) {
+    .main {
+      height: 75vh;
+    }
+    }
+
+@media (max-height:300px) {
+    .main {
+      height: 65vh;
+    }
+    }
