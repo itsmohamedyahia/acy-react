@@ -3,6 +3,7 @@ import { Chart as ChartJS } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import Home__DownArrIcon from "./Home__DownArrIcon";
 import Card from "../../../common/UI/Card";
+import './Home__Analytics.css'
 
 export default function Home__Analytics() {
   return (
