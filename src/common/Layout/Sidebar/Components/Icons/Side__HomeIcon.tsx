@@ -1,7 +1,12 @@
-export default function Side_HomeIcon() {
+export default function Side_HomeIcon(props) {
+  const svgWidth = `w-${props.w}`
+  const svgHeight = `h-${props.h}`
+  const svgPadding = "p-[0.1rem]"
+  const svgClasses = [svgWidth, svgHeight, "stroke-current"].join(" ") + ` ${props.padding && svgPadding}`
+
   return (
     <svg
-      className="w-6 h-6 stroke-current"
+      className={svgClasses}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
