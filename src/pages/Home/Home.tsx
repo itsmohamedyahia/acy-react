@@ -13,7 +13,8 @@ export default function HomePage() {
       <Home__Leaderboard />
       <Home__Streak />
       <Home__Analytics />
-      <div>
+      {/* JUST FOR TESTING SCROLL ON MAIN EL */}
+      {/* <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nostrum
         temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
         blanditiis facere consectetur neque a, nobis laborum esse eum libero
@@ -72,7 +73,7 @@ export default function HomePage() {
         temporibus cupiditate totam nihil mollitia reiciendis similique quaerat
         blanditiis facere consectetur neque a, nobis laborum esse eum libero
         inventore quod?
-      </div>
+      </div> */}
     </div>
   );
 }
