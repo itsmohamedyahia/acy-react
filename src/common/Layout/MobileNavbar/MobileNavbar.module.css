@@ -1,0 +1,18 @@
+.mobile_nav {
+    position: sticky;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+   display: none;
+}
+
+
+@media (max-width: 1150px) {
+    .mobile_nav {
+        display: flex;
+        color: aliceblue;
+        background-color: blue;
+        padding: 1rem;
+        justify-content: space-around;
+    }
+}
