@@ -1,5 +1,5 @@
 import { NavLink, useResolvedPath } from "react-router-dom";
-import styles from "./ListOfLessons.module.css";
+
 
 export default function ContentSidebar() {
   // const path = useLocation().pathname;\
