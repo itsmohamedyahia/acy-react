@@ -2,11 +2,10 @@
   margin: 3.5rem 0;
   overflow-x: hidden;
   overflow-y:auto;
-  height: 93vh;
 }
 
 
-@media (max-height:713px) {
+/* @media (max-height:713px) {
 .main {
   height: 84vh;
 }
@@ -35,4 +34,4 @@
   .main {
     height: 20vh;
   }
-  }
+  } */
