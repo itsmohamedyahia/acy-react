@@ -1,7 +1,5 @@
 .main {
-  display: grid;
   margin-top: 3.5rem;
-
   overflow-x: hidden; 
   height: 93vh;
 }
