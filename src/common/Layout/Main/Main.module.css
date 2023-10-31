@@ -1,12 +1,19 @@
 .main {
-  margin-top: 3.5rem;
-  overflow-x: hidden; 
-  height: 93vh;
+  margin: 3.5rem 0;
+  overflow-x: hidden;
+  overflow-y:auto;
+  height: 89vh;
 }
 
 
-@media (max-width:1150px) {
+@media (max-height:713px) {
 .main {
-  height: 75vh;
-}  
+  height: 84vh;
 }
+}
+
+@media (max-height:465px) {
+  .main {
+    height: 80vh;
+  }
+  }
