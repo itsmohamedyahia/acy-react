@@ -1,13 +1,7 @@
-import { ReactNode } from "react";
-
-type attributes = {
-  outlet: ReactNode;
-}
-
-function Main(props: attributes) {
+function Main({outlet}) {
   return (
     <main className="my-[3.5rem] overflow-x-hidden overflow-y-auto">
-      {props.outlet}
+      {outlet}
     </main>
   );
 }
