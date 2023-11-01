@@ -17,7 +17,7 @@ export default function Security() {
       <div className="security__container--prim">
         <div
           className={
-            "gap-x-16 flex py-14 px-10 personal-info-container"
+            "gap-x-16 flex py-14 px-10 "
           }
         >
           <SettingsHeader heading={Security.heading} desc={Security.desc}/>

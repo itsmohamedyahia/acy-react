@@ -15,7 +15,7 @@ export default function Profile() {
       <Tabs tabs={["Profile", "Security"]} />
       <div className="flex justify-center">
         <div
-          className="flex px-10 gap-x-16 py-14 personal-info-container"
+          className="flex px-10 gap-x-16 py-14"
           
         >
          <SettingsHeader heading={Profile.heading} desc={Profile.desc}/>
