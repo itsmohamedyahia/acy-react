@@ -18,7 +18,8 @@ export default function ContentSidebar() {
         <li key={lesson.id}>
           <NavLink
             to={`${path}lesson${lesson.id}`}
-            className={({ isActive }) => (isActive ? styles.active : undefined)}
+            // make current lesson in list highlighted 
+            className={({ isActive }) => (isActive && s.active)}
           >
             lesson - {lesson.id}
           </NavLink>
