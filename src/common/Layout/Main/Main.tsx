@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import s from "./Main.module.css";
 
 type attributes = {
   outlet: ReactNode;
@@ -7,9 +6,9 @@ type attributes = {
 
 function Main(props: attributes) {
   return (
-    <div className={s.main}>
+    <main className="my-[3.5rem] overflow-x-hidden overflow-y-auto">
       {props.outlet}
-    </div>
+    </main>
   );
 }
 
