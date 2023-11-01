@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../../pages/Home/Home";
 import AboutPage from "../../pages/About/About";
 import Store from "../../pages/Store/Store";
-import Security from "../../pages/Settings/Settings__Security/Security";
+import Security from "../../pages/Settings/Security/Security";
 import ProfileSetup from "../../pages/Login/ProfileSetup";
 //login
 import Login from "../../pages/Login/Login";
@@ -18,7 +18,7 @@ import SynapseSagePage from "../../features/CoreFeatures/SynapSage/SynapseSage";
 import LeaderboardPage from "../../features/UtilityFeatures/Leaderboard/Leaderboard";
 import AnalyticsPage from "../../features/UtilityFeatures/Analytics/Analytics";
 import AddFriend from "../../features/UtilityFeatures/Friends/AddFriend";
-import Profile from "../../pages/Settings/Settings__Profile/Profile";
+import Profile from "../../pages/Settings/Profile/Profile";
 //other
 import Root from "../../common/Layout/Root/Root";
 import Error from "../../pages/Error/Error";
@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <Error/>,
+    errorElement: <Error />,
     children: [
       // main
       { index: true, element: <HomePage /> }, // path: ''
@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
       { path: "settings/profile", element: <Profile /> },
       { path: "settings/security", element: <Security /> },
       // core
-      {path: "study", element: <SynapseSagePage/>},
+      { path: "study", element: <SynapseSagePage /> },
       { path: "analytics", element: <AnalyticsPage /> },
       { path: "store", element: <Store /> },
       { path: "add-friend", element: <AddFriend /> },

@@ -1,5 +1,5 @@
 import Card from "../../common/UI/Card";
-import ProfileForm from "../../common/UI/Form/ProfileForm";
+import ProfileForm from "../Settings/Profile/ProfileForm";
 import pp from "../../assets/images/FufcHyEaUAIbNf0.jpg";
 import "./ProfileSetup.css";
 import assistant from "../../assets/images/assistant-pathfinder.png";

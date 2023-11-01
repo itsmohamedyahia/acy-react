@@ -1,17 +1,13 @@
-import "./Profile__FormControl__Input.css";
+import "./FormControl__Input.css";
 
-export default function Profile__FormControl__Input({
-  id,
-  dbName,
-  placeholder = "",
-}) {
+export default function FormControl__Input({ id, dbName, placeholder = "" }) {
   // ??
   if (false) {
     return (
-      <select
+      <select title="select"
         disabled
         id="countries_disabled"
-        // className="block w-full p-2 mt-1 text-sm text-gray-900 Profile__FormControl__Input rounded-lgfocus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        // className="block w-full p-2 mt-1 text-sm text-gray-900 FormControl__Input rounded-lgfocus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         className="form__select"
       >
         {id === "uni" && (

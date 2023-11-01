@@ -1,24 +1,4 @@
 .Profile__FormControl__input {
-  /* border-color: #6b7280;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
-  display: block;
-  width: 100%;
-  border-radius: 0.375rem;
-  margin-top: 0.5rem;
-
-  background-color: rgba(166, 165, 165, 0.05);
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
-
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
-    var(--tw-shadow, 0 0 #0000);
-  --tw-ring-inset: inset;
-  --tw-ring-color: rgb(255 255 255 / 0.1);
-  font-size: 0.875rem;
-  line-height: 1.5rem; */
-
-  /* */
   border-color: #6b7280;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
@@ -55,6 +35,6 @@
 }
 
 /* to be moved to seperate component css*/
-.Profile__FormControl__Input {
+.FormControl__Input {
   background-color: rgba(166, 165, 165, 0.05);
 }
