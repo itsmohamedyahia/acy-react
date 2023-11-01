@@ -1,33 +1,125 @@
-import Button from "../Button";
-import Profile__FormControl from "../../../pages/Settings/Settings__Profile/Profile__FormControl";
-
-export default function Form(props) {
+export default function Form({action, className=""}) {
   return (
-    <form className="form--settings">
-      <div className="flex items-center gap-8 ">
-        <img className="rounded Profile__pp" src={props.pp} alt="" />
-        <div>
-          <button
-            type="button"
-            className="px-5 py-1.5 mb-2 mr-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          >
-            Choose
-          </button>
+    <form className={className} action={action} method="POST">
+      <div>
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium leading-6 text-gray-900"
+        >
+          Email address
+        </label>
+        <div className="mt-2">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autoComplete="email"
+            required
+            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-sm leading-6"
+          />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4">
-        <Profile__FormControl label="First name" id="first-name" />
-        <Profile__FormControl label="Last name" id="last-name" />
+
+      <div>
+        <div className="flex items-center justify-between">
+          <label
+            htmlFor="password"
+            className="block text-sm font-medium leading-6 text-gray-900"
+          >
+            Password
+          </label>
+          <div className="text-sm">
+            <a
+              href="#"
+              className="font-semibold text-indigo-600 hover:text-indigo-500"
+            >
+              Forgot password?
+            </a>
+          </div>
+        </div>
+        <div className="mt-2">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autoComplete="current-password"
+            required
+            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-sm leading-6"
+          />
+        </div>
       </div>
-      <Profile__FormControl label="Email" id="email" />
-      {/*Form control */}
-      <Profile__FormControl label="Username" id="username" />
-      <div className="grid grid-cols-2 gap-4">
-        <Profile__FormControl label="University" id="uni" />
-        <Profile__FormControl label="Major" id="major" />
+
+      <div>
+        <button
+          type="submit"
+          className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Sign in
+        </button>
       </div>
-      <Profile__FormControl label="Year" id="year" />
-      <Button className="mt-1 mb-2 mr-2 ">{props.submitLabel}</Button>
     </form>
   );
 }
+
+
+/*
+<form className="space-y-6" action="#" method="POST">
+      <div>
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium leading-6 text-gray-900"
+        >
+          Email address
+        </label>
+        <div className="mt-2">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autoComplete="email"
+            required
+            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-sm leading-6"
+          />
+        </div>
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between">
+          <label
+            htmlFor="password"
+            className="block text-sm font-medium leading-6 text-gray-900"
+          >
+            Password
+          </label>
+          <div className="text-sm">
+            <a
+              href="#"
+              className="font-semibold text-indigo-600 hover:text-indigo-500"
+            >
+              Forgot password?
+            </a>
+          </div>
+        </div>
+        <div className="mt-2">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autoComplete="current-password"
+            required
+            className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 text-sm leading-6"
+          />
+        </div>
+      </div>
+
+      <div>
+        <button
+          type="submit"
+          className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Sign in
+        </button>
+      </div>
+    </form>
+
+*/

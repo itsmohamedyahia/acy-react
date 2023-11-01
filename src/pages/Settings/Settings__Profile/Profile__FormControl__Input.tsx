@@ -3,9 +3,10 @@ import "./Profile__FormControl__Input.css";
 export default function Profile__FormControl__Input({
   id,
   dbName,
-  placeholder
+  placeholder = "",
 }) {
-  if (id === "uni" || id === "major") {
+  // ??
+  if (false) {
     return (
       <select
         disabled

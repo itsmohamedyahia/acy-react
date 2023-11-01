@@ -1,7 +1,6 @@
 import Tabs from "../../../common/Settings/Tabs";
-import "./Profile.css";
 import pp from "../../.../../../assets/images/path1.jpg";
-import Form from "../../../common/UI/Form/Form";
+import ProfileForm from "../../../common/UI/Form/ProfileForm";
 import SettingsHeader from "../SettingsHeader";
 
 export default function Profile() {
@@ -16,11 +15,11 @@ export default function Profile() {
       <Tabs tabs={["Profile", "Security"]} />
       <div className="flex justify-center">
         <div
-          className="flex px-10 Profile__personal-info-container py-14 personal-info-container"
+          className="flex px-10 gap-x-16 py-14 personal-info-container"
           
         >
          <SettingsHeader heading={Profile.heading} desc={Profile.desc}/>
-          <Form pp={pp} submitLabel="Save"></Form>
+          <ProfileForm pp={pp} submitLabel="Save"></ProfileForm>
         </div>
       </div>
     </>

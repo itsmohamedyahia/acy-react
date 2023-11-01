@@ -1,7 +1,8 @@
 import Tabs from "../../../common/Settings/Tabs";
 import SettingsHeader from "../SettingsHeader";
-import Profile__FormControl from "../Settings__Profile/Profile__FormControl";
+import FormControl from "../FormControl";
 import "./Security.css";
+import "../Settings__Profile/Profile.css"
 
 export default function Security() {
 
@@ -16,15 +17,15 @@ export default function Security() {
       <div className="security__container--prim">
         <div
           className={
-            "Profile__personal-info-container flex py-14 px-10 personal-info-container"
+            "gap-x-16 flex py-14 px-10 personal-info-container"
           }
         >
           <SettingsHeader heading={Security.heading} desc={Security.desc}/>
           <form className="form--settings">
-            <Profile__FormControl label="Old Password" id="pwd" />
-            <Profile__FormControl label="New Password" id="new-pwd" />
+            <FormControl label="Old Password" id="pwd" />
+            <FormControl label="New Password" id="new-pwd" />
 
-            <Profile__FormControl
+            <FormControl
               label="Confirm New Password"
               id="re-new-pwd"
             />

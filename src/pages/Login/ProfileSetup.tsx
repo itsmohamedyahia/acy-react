@@ -1,5 +1,5 @@
 import Card from "../../common/UI/Card";
-import Form from "../../common/UI/Form/Form";
+import ProfileForm from "../../common/UI/Form/ProfileForm";
 import pp from "../../assets/images/FufcHyEaUAIbNf0.jpg";
 import "./ProfileSetup.css";
 import assistant from "../../assets/images/assistant-pathfinder.png";
@@ -23,7 +23,7 @@ export default function ProfileSetup() {
           <p className="mb-6 profile-setup__text">
             Lets complete your profile and get you started.
           </p>
-          <Form pp={pp} submitLabel="Next"></Form>
+          <ProfileForm pp={pp} submitLabel="Next"></ProfileForm>
         </div>
         <div className="profile-setup__image-container">
           <img src={assistant} className="profile-setup__img--assistant" />
