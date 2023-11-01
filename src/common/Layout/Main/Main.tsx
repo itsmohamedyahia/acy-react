@@ -1,6 +1,11 @@
+import { ReactNode } from "react";
 import s from "./Main.module.css";
 
-function Main(props) {
+type attributes = {
+  outlet: ReactNode;
+}
+
+function Main(props: attributes) {
   return (
     <div className={s.main}>
       {props.outlet}
