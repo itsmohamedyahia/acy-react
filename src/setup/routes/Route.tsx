@@ -21,13 +21,13 @@ import AddFriend from "../../features/UtilityFeatures/Friends/AddFriend";
 import Profile from "../../pages/Settings__Profile/Profile";
 //other
 import Root from "../../common/Layout/Root/Root";
-// import Error from "../../pages/Error/Error";
+import Error from "../../pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <>404</>,
+    errorElement: <Error/>,
     children: [
       // main
       { index: true, element: <HomePage /> }, // path: ''
