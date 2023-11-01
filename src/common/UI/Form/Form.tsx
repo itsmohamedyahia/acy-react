@@ -1,5 +1,5 @@
 import Button from "../Button";
-import Profile__FormControl from "../../../pages/Settings__Profile/Profile__FormControl";
+import Profile__FormControl from "../../../pages/Settings/Settings__Profile/Profile__FormControl";
 
 export default function Form(props) {
   return (

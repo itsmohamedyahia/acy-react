@@ -1,8 +1,15 @@
-import Tabs from "../../common/Settings/Tabs";
+import Tabs from "../../../common/Settings/Tabs";
+import SettingsHeader from "../SettingsHeader";
 import Profile__FormControl from "../Settings__Profile/Profile__FormControl";
 import "./Security.css";
 
 export default function Security() {
+
+  const Security = {
+    heading: "Change Your Password",
+    desc: "Some random words just to stir you from what you were about to do here."
+  }
+  
   return (
     <>
       <Tabs tabs={["Profile", "Security"]} />
@@ -12,13 +19,7 @@ export default function Security() {
             "Profile__personal-info-container flex py-14 px-10 personal-info-container"
           }
         >
-          <div className="">
-            <h2 className="font-semibold leading-7">Change Your Password</h2>
-            <p style={{ maxWidth: "40ch" }}>
-              Some random words just to stir you from what you were about to do
-              here.
-            </p>
-          </div>
+          <SettingsHeader heading={Security.heading} desc={Security.desc}/>
           <form className="form--settings">
             <Profile__FormControl label="Old Password" id="pwd" />
             <Profile__FormControl label="New Password" id="new-pwd" />

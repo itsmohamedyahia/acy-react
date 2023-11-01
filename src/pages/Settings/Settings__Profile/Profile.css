@@ -1,0 +1,13 @@
+.Profile__personal-info-container {
+  column-gap: 4rem;
+}
+
+.Profile__pp {
+  height: 6rem;
+}
+
+.form--settings {
+  display: grid;
+  row-gap: 1rem;
+  width: 30rem;
+}

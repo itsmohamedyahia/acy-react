@@ -1,0 +1,60 @@
+.Profile__FormControl__input {
+  /* border-color: #6b7280;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.375rem;
+  margin-top: 0.5rem;
+
+  background-color: rgba(166, 165, 165, 0.05);
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+    var(--tw-shadow, 0 0 #0000);
+  --tw-ring-inset: inset;
+  --tw-ring-color: rgb(255 255 255 / 0.1);
+  font-size: 0.875rem;
+  line-height: 1.5rem; */
+
+  /* */
+  border-color: #6b7280;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 0px;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0
+    var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+    calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+    var(--tw-shadow, 0 0 #0000);
+  --tw-ring-inset: inset;
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity));
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+
+  margin-top: 0.5rem;
+}
+
+.Profile__FormControl__label {
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  display: block;
+}
+
+/* to be moved to seperate component css*/
+.Profile__FormControl__Input {
+  background-color: rgba(166, 165, 165, 0.05);
+}

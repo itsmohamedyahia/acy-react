@@ -1,5 +1,5 @@
 import Card from "../../common/UI/Card";
-import Profile__FormControl from "../Settings__Profile/Profile__FormControl";
+import Profile__FormControl from "../Settings/Settings__Profile/Profile__FormControl";
 
 export default function Login() {
   return (

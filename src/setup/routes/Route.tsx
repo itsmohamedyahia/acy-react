@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../../pages/Home/Home";
 import AboutPage from "../../pages/About/About";
 import Store from "../../pages/Store/Store";
-import Security from "../../pages/Settings__Security/Security";
+import Security from "../../pages/Settings/Settings__Security/Security";
 import ProfileSetup from "../../pages/Login/ProfileSetup";
 //login
 import Login from "../../pages/Login/Login";
@@ -18,7 +18,7 @@ import SynapseSagePage from "../../features/CoreFeatures/SynapSage/SynapseSage";
 import LeaderboardPage from "../../features/UtilityFeatures/Leaderboard/Leaderboard";
 import AnalyticsPage from "../../features/UtilityFeatures/Analytics/Analytics";
 import AddFriend from "../../features/UtilityFeatures/Friends/AddFriend";
-import Profile from "../../pages/Settings__Profile/Profile";
+import Profile from "../../pages/Settings/Settings__Profile/Profile";
 //other
 import Root from "../../common/Layout/Root/Root";
 import Error from "../../pages/Error/Error";
