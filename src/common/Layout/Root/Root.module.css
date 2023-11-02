@@ -1,6 +1,6 @@
 #root-layout {
   display: grid;
-  grid-template-columns: 15fr 100fr;
+  grid-template-columns: 16fr 100fr;
   height: 100%;
   width: 100%;
   overflow: hidden;
