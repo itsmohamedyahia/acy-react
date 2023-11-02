@@ -1,4 +1,4 @@
-export default function Home__DownArrIcon(props) {
+export default function DownArrIcon(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

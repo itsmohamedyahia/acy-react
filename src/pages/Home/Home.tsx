@@ -1,9 +1,9 @@
-import Home__Hello from "./components/Home__Hello";
+import Home__Hello from "./components/HomeHello/Home__Hello";
 import "./Home.css";
-import Home__Start from "./components/Home__Start";
+import Home__Start from "./components/HomeStart/Home__Start";
 import Home__Leaderboard from "./components/Leaderboard/Home__Leaderboard";
-import Home__Streak from "./components/Home__Streak";
-import Home__Analytics from "./components/Home__Analytics";
+import Home__Streak from "./components/HomeStreak/Home__Streak";
+import Home__Analytics from "./components/HomeAnalytics/Home__Analytics";
 
 export default function HomePage() {
   return (

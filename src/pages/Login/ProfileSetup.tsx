@@ -3,7 +3,7 @@ import ProfileForm from "../Settings/Profile/ProfileForm";
 import pp from "../../assets/images/FufcHyEaUAIbNf0.jpg";
 import "./ProfileSetup.css";
 import assistant from "../../assets/images/assistant-pathfinder.png";
-import Home__WavingIcon from "../Home/components/Home__WavingIcon";
+import Home__WavingIcon from "../Home/components/Icons/Home__WavingIcon";
 
 export default function ProfileSetup() {
   const user = "Mohamed";

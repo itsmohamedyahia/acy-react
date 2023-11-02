@@ -1,9 +1,9 @@
 import "chart.js/auto";
 import { Chart as ChartJS } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import Home__DownArrIcon from "./Home__DownArrIcon";
-import Card from "../../../common/UI/Card";
-import './Home__Analytics.css'
+import DownArrIcon from "../../../../common/UI/Icons/DownArrIcon";
+import Card from "../../../../common/UI/Card";
+import "./Home__Analytics.css";
 
 export default function Home__Analytics() {
   return (
@@ -16,7 +16,7 @@ export default function Home__Analytics() {
             <div className="flex items-center space-x-4">
               <dd className="text-3xl font-semibold text-heading">36</dd>
               <dd className="flex items-center space-x-2 text-red-500">
-                <Home__DownArrIcon className="w-5 h-5" />
+                <DownArrIcon className="w-5 h-5" />
                 <span className="text-lg font-semibold">0.2%</span>
               </dd>
             </div>

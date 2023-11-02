@@ -1,5 +1,5 @@
-import Card from "../../../common/UI/Card";
-import Home__RightArrIcon from "./Home__RightArrIcon";
+import Card from "../../../../common/UI/Card";
+import Home__RightArrIcon from "../Icons/Home__RightArrIcon";
 import "./Home__Start.css";
 export default function Home__Start() {
   return (

@@ -1,39 +1,3 @@
-// export default function Home__RightArrIcon () {
-//   return (
-//     <svg
-//       className="w-20"
-//       fill="#000000"
-//       version="1.1"
-//       id="Capa_1"
-//       xmlns="http://www.w3.org/2000/svg"
-//       xmlnsXlink="http://www.w3.org/1999/xlink"
-//       viewBox="0 0 490 490"
-//       xml:space="preserve"
-//       block
-//     >
-//       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-//       <g
-//         id="SVGRepo_tracerCarrier"
-//         strokeLinecap="round"
-//         strokeLinejoin="round"
-//       ></g>
-//       <g id="SVGRepo_iconCarrier">
-//         {" "}
-//         <g>
-//           {" "}
-//           <g>
-//             {" "}
-//             <polygon points="247.773,8.081 175.407,82.05 295.118,199.145 0,199.145 0,306.14 279.496,306.14 175.407,407.949 247.773,481.919 490,245.004 "></polygon>{" "}
-//           </g>{" "}
-//           <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g>{" "}
-//           <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g>{" "}
-//           <g> </g>{" "}
-//         </g>{" "}
-//       </g>
-//     </svg>
-//   );
-// }
-
 export default function Home__RightArrIcon() {
   return (
     <svg

@@ -1,5 +1,5 @@
-import Home__WavingIcon from "./Home__WavingIcon";
-import Card from "../../../common/UI/Card";
+import Home__WavingIcon from "../Icons/Home__WavingIcon";
+import Card from "../../../../common/UI/Card";
 
 function Home__Hello() {
   let firstName = "Mohamed";

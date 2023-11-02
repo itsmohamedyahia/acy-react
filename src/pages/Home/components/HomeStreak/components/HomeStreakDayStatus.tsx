@@ -1,5 +1,5 @@
-import CheckIcon from "./CheckIcon";
-import XIcon from "./xIcon";
+import CheckIcon from "../../../../../common/UI/Icons/CheckIcon";
+import XIcon from "../../../../../common/UI/Icons/XIcon";
 
 export default function HomeStreakDayStatus({ status }) {
   const statusPresentCss = "bg-green-500";
