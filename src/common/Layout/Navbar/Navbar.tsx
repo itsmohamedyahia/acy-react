@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <header
       id="navbar"
-      className={`navbar py-2.5 border-b absolute top-0 left-0 right-0 z-10 bg-white h-[3.5rem] shadow`}
+      className={`navbar py-2.5 border-b sticky top-0 left-0 right-0 z-10 bg-white h-[3.5rem] shadow`}
     >
       <nav
         id="navbar__nav"

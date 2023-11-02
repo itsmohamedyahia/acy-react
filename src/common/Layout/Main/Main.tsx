@@ -1,6 +1,6 @@
 function Main({outlet}) {
   return (
-    <main className="my-[3.5rem] overflow-x-hidden overflow-y-auto">
+    <main className="mb-[3.5rem] overflow-x-hidden overflow-y-auto">
       {outlet}
     </main>
   );
