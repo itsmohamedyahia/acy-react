@@ -1,86 +1,12 @@
 import Card from "../../../common/UI/Card";
+import HomeStreakDays from "./HomeStreakDays";
+import HomeStreakHeader from "./HomeStreakHeader";
 
 export default function Home__Streak() {
   return (
-    <Card addClass="home__streak">
-      <h1 className="w-full mb-2 text-xl font-semibold">You're on a streak!</h1>
-      <div className="flex items-center justify-between ">
-        <div className="flex flex-col items-center justify-center">
-          <div className="flex items-center justify-center w-6 h-6 bg-green-500 rounded-full">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-4 text-white"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-          </div>
-          <p className="font-semibold">Mon</p>
-        </div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-500 rounded-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 text-white"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-500 rounded-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 text-white"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-500 rounded-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 text-white"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-500 rounded-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 text-white"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-100 border border-green-500 rounded-full"></div>
-        <div className="flex items-center justify-center w-6 h-6 bg-green-100 border border-green-500 rounded-full"></div>
-      </div>
+    <Card addClass="home__streak flex items-center justify-around md:flex-col md:gap-y-4">
+      <HomeStreakHeader/>
+      <HomeStreakDays/>
     </Card>
   );
 }
