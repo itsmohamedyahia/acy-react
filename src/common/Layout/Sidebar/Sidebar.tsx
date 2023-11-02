@@ -8,7 +8,7 @@ import s from "./Sidebar.module.css";
 
 export default function Sidebar() {
   return (
-    <div id="sidebar" className={`${s.sidebar}`} aria-label="Sidebar">
+    <div id="sidebar" className={`${s.sidebar} lg:hidden`} aria-label="Sidebar">
       <Sidebar__Head />
       <Sidebar__Nav />
     </div>

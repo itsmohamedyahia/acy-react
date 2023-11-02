@@ -14,9 +14,8 @@
   overflow: auto;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1023px) {
   #root-layout {
-    display: grid;
     grid-template-columns: 1fr;
   }
 }
