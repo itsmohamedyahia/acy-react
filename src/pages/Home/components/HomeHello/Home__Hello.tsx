@@ -1,8 +1,28 @@
 import Home__WavingIcon from "../Icons/Home__WavingIcon";
 import Card from "../../../../common/UI/Card";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function Home__Hello() {
-  let firstName = "Mohamed";
+  const [firstName, setFirstName] = useState("user");
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("/api/user/firstName");
+        if (response.status === 200) {
+          setFirstName(response.data);
+        } else {
+          console.error("Error fetching data:", response.status);
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  });
+
   return (
     <Card addClass="home__welcome flex items-center gap-2 justify-center">
       <a href="#" className="block">
