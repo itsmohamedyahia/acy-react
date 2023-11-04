@@ -1,5 +1,4 @@
 .home {
-  padding: 2.4rem 10rem;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-areas:
@@ -31,12 +30,12 @@
   grid-area: analytics;
 }
 
-@media (max-width: 1410px) {
+/* @media (max-width: 1410px) {
   .home {
     padding: 1.6rem 3rem;
   }
 
-}
+} */
 
 @media (max-width: 1150px) {
     .home {
