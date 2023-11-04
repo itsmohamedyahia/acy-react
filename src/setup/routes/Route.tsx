@@ -5,15 +5,15 @@ import HomePage from "../../pages/Home/Home";
 import AboutPage from "../../pages/About/About";
 import Store from "../../pages/Store/Store";
 import Security from "../../pages/Settings/Security/Security";
-import ProfileSetup from "../../pages/Login/ProfileSetup";
+import ProfileSetup from "../../pages/ProfileSetup/ProfileSetup";
 //login
 import Login from "../../pages/Login/Login";
-import SignUp from "../../pages/Login/SignUp";
+import SignUp from "../../pages/Signup/Signup";
 // import ProfileSetup from "./assets/Pages/Login/ProfileSetup";
 // core
 // import MasteryMatrixPage from "../../features/CoreFeatures/MasteryMatrix/MasteryMatrix";
 // import BlitzBlazePage from "../../features/CoreFeatures/BlitzBlaze/BlitzBlaze";
-import SynapseSagePage from "../../features/CoreFeatures/SynapSage/SynapseSage";
+import Synapse from "../../features/CoreFeatures/Synapse/Synapse";
 // utility
 import LeaderboardPage from "../../features/UtilityFeatures/Leaderboard/Leaderboard";
 import AnalyticsPage from "../../features/UtilityFeatures/Analytics/Analytics";
@@ -35,7 +35,7 @@ export const router = createBrowserRouter([
       { path: "settings/profile", element: <Profile /> },
       { path: "settings/security", element: <Security /> },
       // core
-      { path: "study", element: <SynapseSagePage /> },
+      { path: "synapse", element: <Synapse /> },
       { path: "analytics", element: <AnalyticsPage /> },
       { path: "store", element: <Store /> },
       { path: "add-friend", element: <AddFriend /> },

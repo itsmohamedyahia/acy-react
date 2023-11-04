@@ -3,12 +3,14 @@ import FormControl from "../Settings/FormControl";
 import LoginFooter from "./LoginFooter";
 import LoginHeader from "./LoginHeader";
 import Form from "../../common/UI/Form/Form";
+import { Link } from "react-router-dom";
+import LoginLink from "./LoginLink";
 
 export default function Login() {
   return (
     <>
       <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
-        <LoginHeader />
+        <LoginHeader text="Sign in your account" />
         <div className="w-full max-w-sm mx-auto mt-10">
           <Form className="space-y-6" action="#">
             <FormControl label="Email adress" id="email" />
@@ -23,7 +25,10 @@ export default function Login() {
             </div>
             <Button className="w-full">Sign in</Button>
           </Form>
-          <LoginFooter />
+          <LoginFooter
+            text="Not a member?"
+            anchor={<LoginLink to="/signup" text="Sign Up" />}
+          />
         </div>
       </div>
     </>

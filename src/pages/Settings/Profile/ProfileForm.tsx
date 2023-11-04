@@ -21,11 +21,11 @@ export default function ProfileForm(props) {
           <FormControl label="First name" id="first-name" />
           <FormControl label="Last name" id="last-name" />
         </div>
-        <FormControl label="Email" id="email" />
+        {props.noemail ? null : <FormControl label="Email" id="email" />}
         <FormControl label="Username" id="username" />
         <div className="grid grid-cols-2 gap-4">
-          <FormControl label="University" id="uni" type="select"  />
-          <FormControl label="Major" id="major" type="select"/>
+          <FormControl label="University" id="uni" type="select" />
+          <FormControl label="Major" id="major" type="select" />
         </div>
         <FormControl label="Year" id="year" />
         <Button className="mt-1 mb-2 mr-2 ">{props.submitLabel}</Button>

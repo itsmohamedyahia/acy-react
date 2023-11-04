@@ -1,6 +1,7 @@
 import Sidebar__Link from "../Sidebar__Link";
 import Side_HomeIcon from "../Icons/Side__HomeIcon";
 import Side__AnalyticsIcon from "../Icons/Side__AnalyticsIcon";
+import SynapseIcon from "../../../../UI/Icons/SynapseIcon";
 
 export default function Sidebar__Nav__Superior() {
   return (
@@ -10,9 +11,9 @@ export default function Sidebar__Nav__Superior() {
     >
       <Sidebar__Link label="Dashboard" ico={<Side_HomeIcon w={6}/>} path="/" />
       <Sidebar__Link
-        label="Synapse Sage"
-        ico={<Side__AnalyticsIcon w={6} h={6}/>}
-        path="/study"
+        label="Synapse"
+        ico={<SynapseIcon w={6} h={6}/>}
+        path="/synapse"
       />
       <Sidebar__Link
         label="Mastery Matrix"
