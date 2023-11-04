@@ -1,13 +1,13 @@
-export default function PurchaseItem(props) {
+export default function PurchaseItem({label, img}) {
   return (
-    <div className="max-w-[20rem] bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-[20rem] bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 min-w-[20rem]">
       <a href="#">
-        <img className="rounded-t-lg h-[10rem] w-full" src={props.img} alt="" />
+        <img className="rounded-t-lg h-[10rem] w-full object-cover" src={img} alt="" />
       </a>
       <div className="p-5">
         <a href="#">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            {props.label}
+            {label}
           </h5>
         </a>
         <ul role="list" className="space-y-5 my-7">
