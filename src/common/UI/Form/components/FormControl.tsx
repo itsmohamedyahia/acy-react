@@ -1,7 +1,7 @@
 import "./FormControl.css";
-import FormControl__Input from "./Profile/FormControl__Input";
+import FormControl__Input from "../../../../pages/Settings/Profile/FormControl__Input";
 
-export default function FormControl({ label, id, type="input" }) {
+export default function FormControl({ label, id, type = "input" }) {
   let dbName = "fromDatabase";
   return (
     <div className="FormControl">
