@@ -1,9 +1,9 @@
-import LoginHeader from "../Login/LoginHeader";
+import LoginHeader from "../Login/components/LoginHeader";
 import Form from "../../common/UI/Form/Form";
-import FormControl from "../Settings/FormControl";
+import FormControl from "../../common/UI/Form/components/FormControl";
 import Button from "../../common/UI/Button";
-import LoginFooter from "../Login/LoginFooter";
-import LoginLink from "../Login/LoginLink";
+import LoginFooter from "../Login/components/LoginFooter";
+import LoginLink from "../Login/components/LoginLink";
 
 export default function Signup() {
   return (

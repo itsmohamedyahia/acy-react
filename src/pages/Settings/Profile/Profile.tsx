@@ -1,7 +1,7 @@
-import Tabs from "../../../common/Settings/Tabs";
-import pp from "../../.../../../assets/images/path1.jpg";
+import Tabs from "../../../common/UI/Tabs/Tabs";
+import avatar from "../../.../../../assets/images/avatars/path1.jpg";
 import ProfileForm from "./ProfileForm";
-import SettingsHeader from "../SettingsHeader";
+import SettingsHeader from "../components/SettingsHeader";
 
 export default function Profile() {
   const Profile = {
@@ -15,7 +15,7 @@ export default function Profile() {
       <div className="flex justify-center">
         <div className="flex px-10 gap-x-16 py-14">
           <SettingsHeader heading={Profile.heading} desc={Profile.desc} />
-          <ProfileForm pp={pp} submitLabel="Save"></ProfileForm>
+          <ProfileForm pp={avatar} submitLabel="Save"></ProfileForm>
           <div></div>
         </div>
       </div>

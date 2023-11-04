@@ -1,4 +1,4 @@
-import Tabs from "../../common/Settings/Tabs";
+import Tabs from "../../common/UI/Tabs/Tabs";
 import PurchaseItem from "./PurchaseItem";
 import pharmaImg from "../../assets/images/pharma.jpg";
 

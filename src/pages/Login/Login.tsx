@@ -1,10 +1,10 @@
 import Button from "../../common/UI/Button";
-import FormControl from "../Settings/FormControl";
-import LoginFooter from "./LoginFooter";
-import LoginHeader from "./LoginHeader";
+import FormControl from "../../common/UI/Form/components/FormControl";
+import LoginFooter from "./components/LoginFooter";
+import LoginHeader from "./components/LoginHeader";
 import Form from "../../common/UI/Form/Form";
 import { Link } from "react-router-dom";
-import LoginLink from "./LoginLink";
+import LoginLink from "./components/LoginLink";
 
 export default function Login() {
   return (

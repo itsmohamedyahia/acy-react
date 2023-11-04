@@ -1,5 +1,5 @@
 import Button from "../../../common/UI/Button";
-import FormControl from "../FormControl";
+import FormControl from "../../../common/UI/Form/components/FormControl";
 import Form from "../../../common/UI/Form/Form";
 
 export default function ProfileForm(props) {

@@ -1,6 +1,6 @@
-import Tabs from "../../../common/Settings/Tabs";
-import SettingsHeader from "../SettingsHeader";
-import FormControl from "../FormControl";
+import Tabs from "../../../common/UI/Tabs/Tabs";
+import SettingsHeader from "../components/SettingsHeader";
+import FormControl from "../../../common/UI/Form/components/FormControl";
 import Form from "../../../common/UI/Form/Form";
 import Button from "../../../common/UI/Button";
 
