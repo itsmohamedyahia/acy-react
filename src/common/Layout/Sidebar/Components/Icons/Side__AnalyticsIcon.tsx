@@ -1,11 +1,13 @@
 export default function Side__AnalyticsIcon(props) {
-  const svgWidth = `w-${props.w}`
-  const svgHeight = `h-${props.h}`
-  const svgClasses = [svgWidth, svgHeight, "stroke-current"].join(" ")
+  const svgWidth = `w-${props.w}`;
+  const svgHeight = `h-${props.h}`;
+  const svgClasses = [svgWidth, svgHeight, "stroke-current"].join(" ");
 
   return (
     <svg
       className={svgClasses}
+      width={svgWidth}
+      height={svgWidth}
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
