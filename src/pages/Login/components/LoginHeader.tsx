@@ -1,5 +1,5 @@
-import LogoIcon from "../../common/Layout/Sidebar/Components/Icons/LogoIcon";
-import H3 from "../../common/UI/Headings/H3";
+import LogoIcon from "../../../common/Layout/Sidebar/Components/Icons/LogoIcon";
+import H3 from "../../../common/UI/Headings/H3";
 
 export default function LoginHeader({ text }) {
   return (
