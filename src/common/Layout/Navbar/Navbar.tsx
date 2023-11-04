@@ -1,6 +1,6 @@
 // template at end of the page =>  https://preline.co/examples/layouts-application.html
-import Nav__Notifications from "./Components/Nav__Notifications";
-import Nav__Profile from "./Components/Nav__Profile";
+import Nav__Notifications from "./components/Nav__Notifications";
+import Nav__Profile from "./components/Nav__Profile";
 
 
 export default function Navbar() {

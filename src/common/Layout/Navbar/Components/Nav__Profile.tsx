@@ -1,4 +1,4 @@
-import pp from "../../../../assets/images/path1.jpg";
+import avatar from "../../../../assets/images/avatars/path1.jpg";
 
 export default function Nav__Profile() {
   return (
@@ -12,7 +12,7 @@ export default function Nav__Profile() {
     >
       <img
         className="inline-block h-[2.375rem] w-[2.375rem] rounded-full ring-2 ring-white dark:ring-gray-800"
-        src={pp}
+        src={avatar}
         alt="Image Description"
       />
     </button>
