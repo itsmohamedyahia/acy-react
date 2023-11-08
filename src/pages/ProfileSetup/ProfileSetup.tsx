@@ -10,7 +10,7 @@ export default function ProfileSetup() {
 
   return (
     <div className="profile-setup__container">
-      <Card addClass="profile-setup__card">
+      <Card className="profile-setup__card">
         <div className=" profile-setup__text-container">
           <h1 className="text-xl font-semibold profile-setup__heading">
             Hey, {user}.

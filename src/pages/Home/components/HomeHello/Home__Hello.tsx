@@ -24,7 +24,7 @@ function Home__Hello() {
   });
 
   return (
-    <Card addClass="home__welcome flex items-center gap-2 justify-center">
+    <Card className="home__welcome flex items-center gap-2 justify-center">
       <a href="#" className="block">
         {/* mb-2 align text with icon even after align items center */}
         <h5 className="mb-2 text-2xl font-semibold uppercase dark:text-white">
