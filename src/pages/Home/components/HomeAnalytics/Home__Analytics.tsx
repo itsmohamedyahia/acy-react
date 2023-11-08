@@ -4,10 +4,11 @@ import { Bar } from "react-chartjs-2";
 import DownArrIconCircled from "../../../../common/UI/Icons/DownArrIconCircled";
 import Card from "../../../../common/UI/Card";
 import "./Home__Analytics.css";
+import ComingSoon from "../../../../common/Overlay/ComingSoon";
 
 export default function Home__Analytics() {
   return (
-    <Card addClass="home__analytics">
+    <Card className="home__analytics relative">
       <div className="w-full max-w-3xl rounded-xl bg-layer-2">
         <div className="flex justify-between">
           <div>
@@ -39,7 +40,9 @@ export default function Home__Analytics() {
           data={chartData}
           options={chartOptions}
         />
+     
       </div>
+      <ComingSoon/>
     </Card>
   );
 }
