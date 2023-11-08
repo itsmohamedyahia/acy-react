@@ -9,7 +9,7 @@ export default function Root() {
   return (
     <div id={s["root-layout"]}>
       <Sidebar />
-      <div className={s["root-container"]}>
+      <div className="w-full h-full overflow-auto relative">
         <Navbar />
         <Main outlet={<Outlet />}></Main>
         
