@@ -11,7 +11,7 @@ import Login from "../../pages/Login/Login";
 import SignUp from "../../pages/Signup/Signup";
 // import ProfileSetup from "./assets/Pages/Login/ProfileSetup";
 // core
-// import MasteryMatrixPage from "../../features/CoreFeatures/MasteryMatrix/MasteryMatrix";
+import Mastery from "../../features/CoreFeatures/MasteryMatrix/Mastery";
 // import BlitzBlazePage from "../../features/CoreFeatures/BlitzBlaze/BlitzBlaze";
 import Synapse from "../../features/CoreFeatures/Synapse/Synapse";
 // utility
@@ -36,6 +36,7 @@ export const router = createBrowserRouter([
       { path: "settings/security", element: <Security /> },
       // core
       { path: "synapse", element: <Synapse /> },
+      { path: "mastery", element: <Mastery /> },
       { path: "analytics", element: <AnalyticsPage /> },
       { path: "store", element: <Store /> },
       { path: "add-friend", element: <AddFriend /> },
