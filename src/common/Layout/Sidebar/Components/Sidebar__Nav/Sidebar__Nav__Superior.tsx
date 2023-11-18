@@ -9,19 +9,19 @@ export default function Sidebar__Nav__Superior() {
       id="sidebar__nav__superior"
       className="flex flex-col items-center w-full pt-3 border-t border-blue-900"
     >
-      <Sidebar__Link label="Dashboard" ico={<Side_HomeIcon w={6}/>} path="/" />
+      <Sidebar__Link label="Dashboard" ico={<Side_HomeIcon w={6} />} path="/" />
       <Sidebar__Link
         label="Synapse"
-        ico={<SynapseIcon w={6} h={6}/>}
+        ico={<SynapseIcon w={6} h={6} />}
         path="/synapse"
       />
       <Sidebar__Link
-        label="Mastery Matrix"
+        label="Mastery"
         ico={<Side__AnalyticsIcon w={6} h={6} />}
-        path="/practice"
+        path="/mastery"
       />
       <Sidebar__Link
-        label="Blitze Blaze"
+        label="Blitz"
         ico={<Side__AnalyticsIcon w={6} h={6} />}
         path="/rev"
       />
