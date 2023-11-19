@@ -10,9 +10,9 @@ const Progress: React.FC<{ percent: string; className: string }> = ({
       <div
         className="flex w-full h-2 overflow-hidden bg-gray-200 rounded-full dark:bg-gray-700"
         role="progressbar"
-        aria-valuenow={percent}
-        aria-valuemin="0"
-        aria-valuemax="100"
+        aria-valuenow={Number(percent)}
+        aria-valuemin={0}
+        aria-valuemax={100}
       >
         <div
           className={
