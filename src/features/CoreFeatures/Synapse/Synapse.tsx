@@ -11,7 +11,7 @@ import PurchaseItem from "../../../pages/Store/PurchaseItem";
 export default function Synapse() {
   return (
     <MainContainer>
-      <Card className="flex gap-5 p-14 py-10 mb-10 max-w-x ">
+      <Card className="flex gap-5 py-10 mb-10 p-14 max-w-x ">
         <H3 className="">Resume Last Session</H3>
         <Home__RightArrIcon />
       </Card>

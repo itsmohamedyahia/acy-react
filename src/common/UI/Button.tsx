@@ -1,4 +1,4 @@
-export default function Button({ className, children, variant = "dark" }) {
+export default function Button({ className = "", children, variant = "dark" }) {
   const variantCss =
     variant === "dark"
       ? "text-white bg-blue-700 hover:bg-blue-800"

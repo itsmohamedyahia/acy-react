@@ -4,9 +4,8 @@ export default function DownArrIcon({ size }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       className={width + " py-1.5 mr-3"}
-      
       viewBox="0 -4.5 20 20"
       version="1.1"
     >

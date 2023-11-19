@@ -19,9 +19,9 @@ const Progress: React.FC<{ percent: string; className: string }> = ({
       <div
         className="flex w-full h-2 overflow-hidden bg-gray-200 rounded-full dark:bg-gray-700"
         role="progressbar"
-        aria-valuenow="50"
-        aria-valuemin="0"
-        aria-valuemax="100"
+        aria-valuenow={50}
+        aria-valuemin={0}
+        aria-valuemax={100}
       >
         <div
           className={
@@ -32,17 +32,6 @@ const Progress: React.FC<{ percent: string; className: string }> = ({
       </div>
     </div>
   );
-  // return (
-  //   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-  //     <div
-  //       class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-[45%]"
-
-  //     >
-
-  //       45%
-  //     </div>
-  //   </div>
-  // );
 };
 
 export default Progress;

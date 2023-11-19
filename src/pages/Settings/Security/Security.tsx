@@ -20,7 +20,7 @@ export default function Security() {
             <FormControl label="Old Password" id="pwd" />
             <FormControl label="New Password" id="new-pwd" />
             <FormControl label="Confirm New Password" id="re-new-pwd" />
-            <Button type="submit">Submit</Button>
+            <Button>Submit</Button>
           </Form>
         </div>
       </div>
