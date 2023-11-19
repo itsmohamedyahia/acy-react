@@ -5,12 +5,11 @@ import HomeStreakHeader from "./components/HomeStreakHeader";
 
 export default function Home__Streak() {
   return (
-    <Card className="home__streak  relative">
-      <div className="flex items-center justify-around md:flex-col md:gap-y-4 blur-[2px]">
+    <Card className="relative home__streak">
+      <div className="flex items-center justify-around md:flex-col md:gap-y-4">
         <HomeStreakHeader />
         <HomeStreakDays />
       </div>
-      <ComingSoon />
     </Card>
   );
 }
