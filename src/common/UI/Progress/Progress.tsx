@@ -2,7 +2,7 @@ const Progress: React.FC<{ percent: string; className: string }> = ({
   percent,
   className
 }) => {
-  const marginInlineStartCss = `ms-[calc(${percent}%-1.25rem)] inline-block mb-2 py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-blue-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500`;
+  const marginInlineStartCss = `ms-[calc(${percent}%-1.25rem)] inline-block mb-2 py-0.5 px-1.5 bg-blue-50 border border-blue-200 text-xs font-medium text-blue-600 rounded-lg dark:bg-blue-800/30 dark:border-blue-800 dark:text-blue-500 `;
 
   return (
     <div className={className}>
