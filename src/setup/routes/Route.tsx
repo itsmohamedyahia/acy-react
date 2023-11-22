@@ -22,6 +22,7 @@ import Profile from "../../pages/Settings/Profile/Profile";
 //other
 import Root from "../../common/Layout/Root/Root";
 import Error from "../../pages/Error/Error";
+import { logoutLoader } from "../../pages/Logout/Logout";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,7 @@ export const router = createBrowserRouter([
   },
   // main
   { path: "/login", element: <Login /> },
+  { path: "/logout", loader: logoutLoader },
   { path: "/signup", element: <SignUp /> },
   {
     path: "/profile-setup",
