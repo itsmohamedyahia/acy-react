@@ -24,10 +24,9 @@ export default function Login() {
             </div>
             <Button className="w-full">Sign in</Button>
           </Form>
-          <AuthFooter
-            text="Not a member?"
-            anchor={<AuthLink to="/signup" text="Sign Up" />}
-          />
+          <AuthFooter anchor={<AuthLink to="/signup" text="Sign Up" />}>
+            Not A Member?
+          </AuthFooter>
         </div>
       </div>
     </>
