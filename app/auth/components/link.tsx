@@ -1,4 +1,4 @@
-export default function LoginLink({ to, text }) {
+export default function AuthLink({ to, text }) {
   return (
     <a
       href={to}

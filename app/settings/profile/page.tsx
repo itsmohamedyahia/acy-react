@@ -1,7 +1,7 @@
 import Tabs from "@/ui/tabs/tabs";
 import avatar from "../../.../../../assets/images/avatars/path1.jpg";
 import ProfileForm from "./profileForm";
-import SettingsHeader from "../components/settingsHeader";
+import SettingsHeader from "../components/header";
 
 export default function Profile() {
   const Profile = {

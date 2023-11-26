@@ -1,5 +1,5 @@
-import Sidebar__Nav from "./components/sidebar__Nav/sidebar__Nav";
-import Sidebar__Head from "./components/sidebar__Head";
+import SidebarNav from "./components/nav/nav";
+import SidebarHead from "./components/head";
 import s from "./sidebar.module.css";
 
 // https://codepen.io/robstinson/pen/bGwpNMV?editors=1010
@@ -13,8 +13,8 @@ export default function Sidebar() {
       className={`${s.sidebar} flex lg:hidden`}
       aria-label="Sidebar"
     >
-      <Sidebar__Head />
-      <Sidebar__Nav />
+      <SidebarHead />
+      <SidebarNav />
     </div>
   );
 }

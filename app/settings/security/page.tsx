@@ -1,6 +1,6 @@
 import Tabs from "@/ui/tabs/tabs";
-import SettingsHeader from "../components/settingsHeader";
-import FormControl from "@/ui/form/components/formControl";
+import SettingsHeader from "../components/header";
+import FormControl from "@/components/ui/form/components/control";
 import Form from "@/ui/form/form";
 import Button from "@/ui/button";
 

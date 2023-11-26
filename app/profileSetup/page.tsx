@@ -3,7 +3,7 @@ import ProfileForm from "../settings/profile/profileForm";
 import pp from "../../assets/images/fufcHyEaUAIbNf0.jpg";
 import "./profileSetup.css";
 import assistant from "../../assets/images/assistant-pathfinder.png";
-import Home__WavingIcon from "../home/components/icons/home__WavingIcon";
+import WavingIcon from "@/ui/icons/wavingIcon";
 import Image from "next/image";
 
 export default function ProfileSetup() {
@@ -15,10 +15,7 @@ export default function ProfileSetup() {
         <div className=" profile-setup__text-container">
           <h1 className="text-xl font-semibold profile-setup__heading">
             Hey, {user}.
-            <Home__WavingIcon
-              className="inline mx-2"
-              width="30"
-            ></Home__WavingIcon>
+            <WavingIcon className="inline mx-2" width="30"></WavingIcon>
             Welcome to Acy.
           </h1>
           <p className="mb-6 profile-setup__text">

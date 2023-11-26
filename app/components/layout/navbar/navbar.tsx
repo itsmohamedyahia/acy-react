@@ -1,6 +1,6 @@
 // template at end of the page =>  https://preline.co/examples/layouts-application.html
-import Nav__Notifications from "./components/Nav__Notifications";
-import Nav__Profile from "./components/Nav__Profile";
+import NavNotifications from "./components/notifications";
+import NavProfile from "./components/profile";
 
 export default function Navbar() {
   return (
@@ -15,10 +15,10 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-end w-full mr-auto sm:gap-x-3 sm:order-3">
           <div className="flex flex-row items-center justify-end gap-2">
-            <Nav__Notifications />
+            <NavNotifications />
 
             <div className="hs-dropdown relative inline-flex [--placement:bottom-right]">
-              <Nav__Profile />
+              <NavProfile />
             </div>
           </div>
         </div>

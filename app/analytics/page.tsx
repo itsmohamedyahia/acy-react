@@ -3,7 +3,7 @@ import Image from "next/image";
 // import { css } from "@emotion/react";
 // import styled from "@emotion/styled";
 
-export default function AnalyticsPage() {
+export default function Analytics() {
   return (
     <div className="flex w-full h-full justify-items-end">
       <h1 className="ml-[6rem] text-[4rem] self-center font-semibold">
