@@ -1,0 +1,56 @@
+.home {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "welcome start start"
+    "streak streak leaderboard"
+    "analytics analytics leaderboard";
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+  max-width: inherit;
+}
+
+.home__hello {
+  grid-area: welcome;
+}
+
+.home__start {
+  grid-area: start;
+}
+
+.home__streak {
+  grid-area: streak;
+}
+
+.home__leaderboard {
+  grid-area: leaderboard;
+}
+
+.home__analytics {
+  grid-area: analytics;
+}
+
+/* @media (max-width: 1410px) {
+  .home {
+    padding: 1.6rem 3rem;
+  }
+
+} */
+
+@media (max-width: 1150px) {
+    .home {
+      grid-template-columns: 1fr ;
+      grid-template-areas: "welcome"
+      "start"
+      "streak"
+      "leaderboard"
+      "analytics"
+    }
+
+
+    
+}
+
+.custom-shadow {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
