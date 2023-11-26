@@ -1,8 +1,8 @@
 import Card from "@/ui/card";
-import ProfileForm from "../settings/profile/profileForm";
-import pp from "../../assets/images/fufcHyEaUAIbNf0.jpg";
+import ProfileForm from "../(core)/settings/profile/profileForm";
+import pp from "@/assets/images/fufcHyEaUAIbNf0.jpg";
 import "./profileSetup.css";
-import assistant from "../../assets/images/assistant-pathfinder.png";
+import assistant from "@/assets/images/assistant-pathfinder.png";
 import WavingIcon from "@/ui/icons/wavingIcon";
 import Image from "next/image";
 

@@ -3,10 +3,10 @@
 import "chart.js/auto";
 import { Chart as ChartJS } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import DownArrIconCircled from "../../../components/ui/icons/downArrIconCircled";
-import Card from "../../../components/ui/card";
+import DownArrIconCircled from "@/ui/icons/downArrIconCircled";
+import Card from "@/ui/card";
 import "./analytics.css";
-import ComingSoon from "../../../components/overlay/comingSoon";
+import ComingSoon from "@/components/overlay/comingSoon";
 
 export default function DashboardAnalytics() {
   return (

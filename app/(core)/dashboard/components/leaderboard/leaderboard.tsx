@@ -1,4 +1,3 @@
-// import Card from "../../Components/UI/Card";
 import ComingSoon from "@/comps/overlay/comingSoon";
 import TableBody from "./components/body";
 import TableFooter from "./components/footer";

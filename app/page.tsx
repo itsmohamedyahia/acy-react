@@ -1,5 +1,3 @@
-import "./components/layout/scrollbar/scrollbar.css";
-
 export default function Home() {
   return (
     <div>

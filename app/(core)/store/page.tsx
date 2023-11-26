@@ -1,6 +1,6 @@
 import Tabs from "@/ui/tabs/tabs";
 import PurchaseItem from "./purchaseItem";
-import pharmaImg from "../../assets/images/pharma.jpg";
+import pharmaImg from "@/assets/images/pharma.jpg";
 
 export default function Store() {
   return (

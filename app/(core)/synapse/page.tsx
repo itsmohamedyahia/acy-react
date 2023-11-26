@@ -1,11 +1,10 @@
-// import ContentSidebar from "../../../common/Layout/ContentSidebar/ContentSidebar";
 import anatomyPic from "@/root/assets/images/anatomy-2.jpg";
 import Card from "@/ui/card";
 import MainContainer from "@/ui/containers/mainContainer";
 import H3 from "@/ui/headings/h3";
 import ToggleList from "@/ui/lists/toggleList";
 import RightArrIcon from "@/ui/icons/rightArrIcon";
-import Item from "@/store/item";
+import Item from "@/(core)/store/item";
 
 export default function Synapse() {
   return (

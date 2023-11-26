@@ -1,5 +1,5 @@
-import LogoIcon from "../../components/layout/sidebar/components/icons/logoIcon";
-import H3 from "../../components/ui/headings/h3";
+import LogoIcon from "@/layout/sidebar/components/icons/logoIcon";
+import H3 from "@/ui/headings/h3";
 
 export default function AuthHeader({ text }: { text: string }) {
   return (

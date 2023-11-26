@@ -1,5 +1,5 @@
 import "./control.css";
-import FormControlInput from "../../../../settings/profile/formControlInput";
+import FormControlInput from "@/(core)/settings/profile/formControlInput";
 
 export default function FormControl({ label, id, type = "input" }) {
   let dbName = "fromDatabase";

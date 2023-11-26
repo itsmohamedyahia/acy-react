@@ -9,7 +9,11 @@ export default function SidebarNavSuperior() {
       id="sidebar__nav__superior"
       className="flex flex-col items-center w-full pt-3 border-t border-blue-900"
     >
-      <SidebarLink label="Dashboard" ico={<HomeIcon w={6} />} path="/" />
+      <SidebarLink
+        label="Dashboard"
+        ico={<HomeIcon w={6} />}
+        path="/dashboard"
+      />
       <SidebarLink
         label="Synapse"
         ico={<SynapseIcon w={6} h={6} />}

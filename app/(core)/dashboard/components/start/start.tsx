@@ -1,5 +1,5 @@
-import Card from "../../../components/ui/card";
-import RightArrIcon from "../../../components/ui/icons/rightArrIcon";
+import Card from "@/ui/card";
+import RightArrIcon from "@/ui/icons/rightArrIcon";
 import "./start.css";
 export default function DashboardStart() {
   return (

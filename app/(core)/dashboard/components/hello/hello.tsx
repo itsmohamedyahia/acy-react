@@ -1,7 +1,7 @@
 "use client";
 
-import WavingIcon from "../../../components/ui/icons/wavingIcon";
-import Card from "../../../components/ui/card";
+import WavingIcon from "@/ui/icons/wavingIcon";
+import Card from "@/ui/card";
 import { useEffect, useState } from "react";
 import axios from "axios";
 

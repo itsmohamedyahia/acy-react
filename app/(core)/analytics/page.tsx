@@ -1,4 +1,4 @@
-import image from "../../assets/images/renovation & Construction Services Your Story.png";
+import image from "@/images/renovation & Construction Services Your Story.png";
 import Image from "next/image";
 
 export default function Analytics() {
