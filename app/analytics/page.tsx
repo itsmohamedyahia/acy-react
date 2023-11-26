@@ -1,7 +1,5 @@
 import image from "../../assets/images/renovation & Construction Services Your Story.png";
 import Image from "next/image";
-// import { css } from "@emotion/react";
-// import styled from "@emotion/styled";
 
 export default function Analytics() {
   return (
