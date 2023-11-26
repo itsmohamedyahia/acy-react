@@ -1,6 +1,6 @@
 "use client";
 
-export default function AuthLink({ to, text }) {
+export default function AuthLink({ to, text }: { to: string; text: string }) {
   return (
     <a
       href={to}
