@@ -1,8 +1,8 @@
 import Card from "@/ui/card";
 import ProfileForm from "../(core)/settings/profile/profileForm";
-import pp from "@/assets/images/fufcHyEaUAIbNf0.jpg";
+import pp from "@/assets/images/avatars/ballistic.jpg";
 import "./profileSetup.css";
-import assistant from "@/assets/images/assistant-pathfinder.png";
+import assistant from "@/images/assistant-pathfinder.png";
 import WavingIcon from "@/ui/icons/wavingIcon";
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ export default function ProfileSetup() {
   const user = "Mohamed";
 
   return (
-    <div className="profile-setup__container">
+    <div className="profile-setup__container px-80">
       <Card className="profile-setup__card">
         <div className=" profile-setup__text-container">
           <h1 className="text-xl font-semibold profile-setup__heading">
@@ -24,7 +24,11 @@ export default function ProfileSetup() {
           <ProfileForm pp={pp} submitLabel="Next" noemail></ProfileForm>
         </div>
         <div className="profile-setup__image-container">
-          <Image src={assistant} className="profile-setup__img--assistant" />
+          <Image
+            src={assistant}
+            alt="image"
+            className="profile-setup__img--assistant"
+          />
         </div>
       </Card>
     </div>

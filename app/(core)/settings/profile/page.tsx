@@ -1,5 +1,5 @@
 import Tabs from "@/ui/tabs/tabs";
-import avatar from "@/assets/images/avatars/path1.jpg";
+import avatar from "@/assets/images/apex characters avatar/portrait_Wraith_square.webp";
 import ProfileForm from "./profileForm";
 import SettingsHeader from "../components/header";
 

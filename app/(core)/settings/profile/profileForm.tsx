@@ -1,12 +1,13 @@
 import Button from "@/ui/button";
 import FormControl from "@/components/ui/form/components/control";
 import Form from "@/ui/form/form";
+import Image from "next/image";
 
 export default function ProfileForm(props) {
   return (
     <div className="grid gap-y-4">
       <div className="flex items-center gap-8 ">
-        <img className="h-24 rounded" src={props.pp} alt="" />
+        <Image className="h-24 w-24 rounded" src={props.pp} alt="" />
         <div>
           <button
             type="button"
