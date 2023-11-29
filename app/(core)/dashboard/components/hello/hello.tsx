@@ -11,9 +11,12 @@ function DashboardHello() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/api/user/firstName");
+        const response = await fetch("/api/user/firstName", {
+          method: "GET"
+        });
         if (response.status === 200) {
-          setFirstName(response.data);
+          const data = await response.json();
+          setFirstName((prev) => data);
         } else {
           console.error("Error fetching data:", response.status);
         }
