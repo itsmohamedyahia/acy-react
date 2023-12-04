@@ -9,48 +9,24 @@ import AuthLink from "../components/link";
 import { useRouter } from "next/navigation";
 import FormLabel from "@/components/ui/form/components/label";
 import FormInput from "@/components/ui/form/components/input";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
+import comAuthData from "../logic/onSubmit";
 
 export default function Signup() {
+  const router = useRouter();
+
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    const redirect = await comAuthData(event);
+
+    if (redirect) {
+      router.push("/dashboard");
+    }
+  }
+
   const formFields = [
     { label: "Email Adress", id: "email" },
     { label: "Password", id: "passwd" }
   ];
-
-  const router = useRouter();
-
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
-    const formData = new FormData(event.currentTarget);
-
-    const email = formData.get("email");
-    const passwd = formData.get("passwd");
-    const body = JSON.stringify({ email, passwd });
-
-    try {
-      const response = await fetch("/api/createUser", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json" // Set content type to JSON
-        },
-        body: body
-      });
-      console.log(response);
-
-      if (response.status == 200) {
-        const data = await response.json(); // Parse response JSON
-        if (data === "SUCCESS") {
-          router.push("/dashboard");
-        }
-        console.log(data); // Handle the response data
-      } else {
-        console.error("Error creating user:", response.statusText);
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  }
 
   return (
     <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
