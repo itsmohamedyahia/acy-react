@@ -1,14 +1,15 @@
 import "./control.css";
-import FormControlInput from "@/(core)/settings/profile/formControlInput";
+import FormInput from "@/components/ui/form/components/input";
+import FormLabel from "./label";
+import { ReactNode } from "react";
 
-export default function FormControl({ label, id, type = "input" }) {
+export default function FormControl({ children }: { children: ReactNode }) {
   let dbName = "fromDatabase";
-  return (
-    <div className="FormControl">
-      <label htmlFor={id} className="Profile__FormControl__label">
-        {label}
-      </label>
-      <FormControlInput id={id} dbName={dbName} type={type} />
-    </div>
-  );
+  return <div className="FormControl">{children}</div>;
 }
+
+/*
+
+<FormLabel label={label} id={id} />
+      <FormInput id={id} dbName={dbName} type={type} />
+*/
