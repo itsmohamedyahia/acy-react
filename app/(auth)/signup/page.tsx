@@ -12,6 +12,11 @@ import FormInput from "@/components/ui/form/components/input";
 import { FormEvent } from "react";
 
 export default function Signup() {
+  const formFields = [
+    { label: "Email Adress", id: "email" },
+    { label: "Password", id: "passwd" }
+  ];
+
   const router = useRouter();
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -47,10 +52,6 @@ export default function Signup() {
     }
   }
 
-  const formFields = [
-    { label: "Email Adress", id: "email" },
-    { label: "Password", id: "passwd" }
-  ];
   return (
     <div className="flex flex-col justify-center flex-1 min-h-full px-6 py-12 lg:px-8">
       <AuthHeader text="Create your account" />
