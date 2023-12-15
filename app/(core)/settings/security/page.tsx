@@ -1,3 +1,5 @@
+"use client";
+
 import Tabs from "@/ui/tabs/tabs";
 import SettingsHeader from "../components/header";
 import FormControl from "@/components/ui/form/components/control";

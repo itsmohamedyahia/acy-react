@@ -1,8 +1,8 @@
 import ItemCTA from "./itemCTA";
 import PurchaseItemDesc from "./purchaseItemDesc";
-import ItemImage from "./ItemImage";
-import ItemHeading from "./ItemHeading";
-import ItemContainer from "./ItemContainer";
+import ItemImage from "./itemImage";
+import ItemHeading from "./itemHeading";
+import ItemContainer from "./itemContainer";
 
 export default function PurchaseItem({ label, img }) {
   return (

@@ -1,6 +1,6 @@
-import ItemImage from "./ItemImage";
-import ItemHeading from "./ItemHeading";
-import ItemContainer from "./ItemContainer";
+import ItemImage from "./itemImage";
+import ItemHeading from "./itemHeading";
+import ItemContainer from "./itemContainer";
 
 export default function Item({ img, label, clickable = "#" }) {
   return (
