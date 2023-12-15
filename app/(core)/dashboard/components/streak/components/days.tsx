@@ -7,7 +7,7 @@ export default function HomeStreakDays() {
   return (
     <div className="flex items-center justify-between gap-x-10 sm:grid sm:grid-cols-3 sm:gap-y-3">
       {days.map((day, index) => (
-        <HomeStreakDay day={day} status={daysStatus[index]} />
+        <HomeStreakDay key={index} day={day} status={daysStatus[index]} />
       ))}
     </div>
   );

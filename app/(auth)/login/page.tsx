@@ -27,8 +27,8 @@ export default function Login() {
         <AuthHeader text="Sign in your account" />
         <div className="w-full max-w-sm mx-auto mt-10">
           <Form className="space-y-6" onSubmit={onSubmit}>
-            {formFields.map((field) => (
-              <FormControl>
+            {formFields.map((field, index) => (
+              <FormControl key={index}>
                 <FormLabel label={field.label} id={field.id} />
                 <FormInput id={field.id} />
               </FormControl>

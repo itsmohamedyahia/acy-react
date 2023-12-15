@@ -24,8 +24,8 @@ export default function TopicSideList(topics) {
 
   return (
     <div className="lg:hidden h-full absolute overflow-y-auto text-sm font-medium text-gray-900 bg-white border border-gray-200 shadow topic-sidelist w-[15rem] dark:bg-gray-700 dark:border-gray-600 dark:text-white pb-2">
-      {medicine_topics.map((topic) => (
-        <TopicSideListItem label={topic} />
+      {medicine_topics.map((topic, index) => (
+        <TopicSideListItem key={index} label={topic} />
       ))}
     </div>
   );

@@ -29,8 +29,8 @@ export default function AuthPage({ configObj }: { configObj: configObj }) {
       <AuthHeader text={configObj.headerText} />
       <div className="w-full max-w-sm mx-auto mt-10">
         <Form className="space-y-6" onSubmit={configObj.onSubmit}>
-          {configObj.formFields.map((field) => (
-            <FormControl>
+          {configObj.formFields.map((field, index) => (
+            <FormControl key={index}>
               <FormLabel label={field.label} id={field.id} />
               <FormInput id={field.id} />
             </FormControl>
