@@ -1,5 +1,5 @@
 import DashboardHello from "./components/hello/hello";
-import "./Dashboard.css";
+import "./dashboard.css";
 import DashboardStart from "./components/start/start";
 import DashboardLeaderboard from "./components/leaderboard/leaderboard";
 import Home__Streak from "./components/streak/streak";

@@ -1,5 +1,5 @@
 import Sidebar from "../sidebar/sidebar";
-import s from "./Root.module.css";
+import s from "./root.module.css";
 import MobileNavbar from "../mobileNavbar/mobileNavbar";
 import Navbar from "../navbar/navbar";
 
