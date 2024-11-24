@@ -8,6 +8,10 @@
 
 **Blitz** a fast inverted learning mode based on past paper exam questions. You start with reading the question and work back the knowledge chain. We explain the answer with any necessary information including terminology for comprehension. This mode has stood the test of time and space. Crafted with the help of expert crammers, we guarantee a 75% coverage of your exam questions through this mode alone. JUST FOR YOU, LAST-MINUTE CRAMMERS.
 
+## Snapshots
+![Screenshot 2023-11-08 064732](https://github.com/user-attachments/assets/a9e91d96-9ebf-475b-a459-be1febc1e92b)
+![Screenshot 2023-11-05 000516](https://github.com/user-attachments/assets/3fe964d9-450c-4aaf-aafb-617aaac712de)
+
 ## Getting Started
 
 This is the frondend application of `Acy` educational platform.
